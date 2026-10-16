@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. RockyBack is proprietary.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. RockyBack is proprietary.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
@@ -35,6 +35,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <charge>free</charge>
       <freedom license="GPL-3.0">free-software</freedom>
       <summary>Amber phosphor terminal theme for Apple Terminal and iTerm2.</summary>
+    </work>
+    <work id="ctmu">
+      <name>CTMU</name>
+      <url>https://freew.org/ctmu/</url>
+      <source>https://github.com/JohnThre/CTMU-for-macOS</source>
+      <charge>free</charge>
+      <freedom license="GPL-3.0">free-software</freedom>
+      <summary>A command-line tool for macOS.</summary>
     </work>
     <work id="gasplasma">
       <name>Gas Plasma</name>
