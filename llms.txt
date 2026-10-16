@@ -19,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # freew.org
 
-> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). The catalog lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. RockyBack is proprietary.
+> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). The catalog lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. RockyBack is proprietary, and its published license grants no permission to use it.
 
 swiphtgroup.com is the main Swipht Group site: https://swiphtgroup.com/
 clambercloud.com is the related Clamber site: https://clambercloud.com/
@@ -34,7 +34,7 @@ The catalog is also published as XML: https://freew.org/site.xml
 - [Gas Plasma](https://freew.org/gasplasma/index.html.md): an orange-dominant dark theme for Apple Terminal, iTerm2, VS Code, and Zed. Free of charge, and free software under the GNU General Public License, version 3 or later. Source: https://github.com/JohnThre/GasPlasma-theme. Canonical page: https://freew.org/gasplasma/
 - [iB-theme](https://freew.org/ibtheme/index.html.md): an IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2. Free of charge, and free software under the GNU General Public License, version 3 or later. Source: https://github.com/JohnThre/iB-theme. Canonical page: https://freew.org/ibtheme/
 - [P1PW](https://freew.org/p1pw/index.html.md): a warm, paper-toned light theme for Apple Terminal. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/P1PW-theme. Canonical page: https://freew.org/p1pw/
-- [RockyBack](https://freew.org/rockyback/index.html.md): prepares Rocky Linux 9 or AlmaLinux 9 and installs ClambBack. Free of charge. Proprietary, and not free software. Source: https://github.com/JohnThre/rockyback. License: https://github.com/JohnThre/rockyback/blob/main/LICENSE. Canonical page: https://freew.org/rockyback/
+- [RockyBack](https://freew.org/rockyback/index.html.md): prepares Rocky Linux 9 or AlmaLinux 9 and installs ClambBack. The published license grants no permission to use it. Proprietary, and not free software. Source: https://github.com/JohnThre/rockyback. License: https://github.com/JohnThre/rockyback/blob/main/LICENSE. Canonical page: https://freew.org/rockyback/
 - [WordPerfect Blue](https://freew.org/wordperfectblue/index.html.md): a WordPerfect 5.1 white-on-blue theme for Apple Terminal. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/WordPerfectBlue-theme. Canonical page: https://freew.org/wordperfectblue/
 
 ## Pricing terms

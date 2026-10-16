@@ -35,10 +35,12 @@ It updates the host, hardens common attack surfaces, checks DNS and TLS, then in
 
 ## Terms
 
-- Free of charge: No payment is required to use it.
-- Not free software: Proprietary. The RockyBack license reserves other rights. https://github.com/JohnThre/rockyback/blob/main/LICENSE
+- No public permission: The published license does not allow use, copying, or sharing. Written authorization from the author is required.
+- Not free software: Proprietary. The license grants no other rights. https://github.com/JohnThre/rockyback/blob/main/LICENSE
 
 ## Use
+
+These steps apply only with the author's written authorization.
 
 - SSH key: Install an SSH public key and confirm key login before running the installer.
 - Installer: Run `./install.sh`. Interactive, `--dry-run`, or `--yes`.

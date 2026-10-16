@@ -30,12 +30,12 @@ A presentation of apps and repositories you can use without paying.
 - [Gas Plasma](https://freew.org/gasplasma/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/gasplasma/
 - [iB-theme](https://freew.org/ibtheme/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/ibtheme/
 - [P1PW](https://freew.org/p1pw/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/p1pw/
-- [RockyBack](https://freew.org/rockyback/index.html.md): Free of charge. Not free software. Canonical page: https://freew.org/rockyback/
+- [RockyBack](https://freew.org/rockyback/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/rockyback/
 - [WordPerfect Blue](https://freew.org/wordperfectblue/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/wordperfectblue/
 
 Some of that work is free software. Free software means freedom to use, study, share, and change the work. A price of zero is not the same thing.
 
-[Pricing](https://freew.org/pricing/) lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, and WordPerfect Blue are free software. RockyBack is proprietary.
+[Pricing](https://freew.org/pricing/) lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, and WordPerfect Blue are free software. RockyBack is proprietary, and its published license grants no permission to use it.
 
 Author: Pengfan Chang (Swipht Group). https://swiphtgroup.com/
 

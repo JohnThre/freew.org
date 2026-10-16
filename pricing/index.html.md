@@ -35,7 +35,7 @@ This page presents apps and repositories you can use without paying.
 - [Gas Plasma](https://freew.org/gasplasma/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/gasplasma/
 - [iB-theme](https://freew.org/ibtheme/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/ibtheme/
 - [P1PW](https://freew.org/p1pw/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/p1pw/
-- [RockyBack](https://freew.org/rockyback/index.html.md): Free of charge. Not free software. Canonical page: https://freew.org/rockyback/
+- [RockyBack](https://freew.org/rockyback/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/rockyback/
 - [WordPerfect Blue](https://freew.org/wordperfectblue/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/wordperfectblue/
 
 Author: Pengfan Chang (Swipht Group). https://swiphtgroup.com/

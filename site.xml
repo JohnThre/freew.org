@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. RockyBack is proprietary.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. RockyBack is proprietary, and its published license grants no permission to use it.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
@@ -72,7 +72,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <name>RockyBack</name>
       <url>https://freew.org/rockyback/</url>
       <source>https://github.com/JohnThre/rockyback</source>
-      <charge>free</charge>
+      <charge>no-public-permission</charge>
       <freedom license="proprietary">not-free-software</freedom>
       <summary>Prepares Rocky Linux 9 or AlmaLinux 9 and installs ClambBack.</summary>
     </work>
