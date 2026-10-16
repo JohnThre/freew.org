@@ -16,7 +16,8 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="8" fill="#007AFF"/>
-  <path fill="#fff" d="M13.2 7.5h9.2v2.4h-6.6v4.2h6v2.4h-6V24h-2.6V7.5z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>freew.org</title>
+  <rect width="512" height="512" rx="92" fill="#007aff"/>
+  <path fill="#f4f1e8" d="M304.51 73.78A176.00 176.00 0 1 1 207.49 73.78L232.85 162.21A84.00 84.00 0 1 0 279.15 162.21Z"/>
 </svg>
