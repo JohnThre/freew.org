@@ -18,4 +18,5 @@
 User-agent: *
 Allow: /
 
+# Machine-readable overview: https://freew.org/llms.txt
 Sitemap: https://freew.org/sitemap.xml
