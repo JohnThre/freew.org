@@ -20,12 +20,21 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog is empty.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
   </author>
   <main href="https://swiphtgroup.com/">swiphtgroup.com</main>
   <related href="https://clambercloud.com/">clambercloud.com</related>
-  <catalog state="empty"/>
+  <catalog>
+    <work id="amberphosphor">
+      <name>Amber Phosphor</name>
+      <url>https://freew.org/amberphosphor/</url>
+      <source>https://github.com/JohnThre/AmberPhosphor-theme</source>
+      <charge>free</charge>
+      <freedom license="GPL-3.0">free-software</freedom>
+      <summary>Amber phosphor terminal theme for Apple Terminal and iTerm2.</summary>
+    </work>
+  </catalog>
 </site>

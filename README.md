@@ -1,6 +1,6 @@
 # freew.org
 
-Static presentation for apps and repositories you can use without paying, including free software. The catalog is empty.
+Static presentation for apps and repositories you can use without paying, including free software. The catalog lists [Amber Phosphor](https://freew.org/amberphosphor/), a terminal theme for Apple Terminal and iTerm2. It is free of charge, and it is free software under the GNU General Public License, version 3. The source is https://github.com/JohnThre/AmberPhosphor-theme.
 
 Author: Pengfan Chang (Swipht Group).
 

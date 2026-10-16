@@ -19,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # freew.org
 
-> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). No apps or repositories are listed yet.
+> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). The catalog lists Amber Phosphor.
 
 swiphtgroup.com is the main Swipht Group site: https://swiphtgroup.com/
 clambercloud.com is the related Clamber site: https://clambercloud.com/
@@ -28,6 +28,7 @@ clambercloud.com is the related Clamber site: https://clambercloud.com/
 
 - [Home](https://freew.org/)
 - [Pricing](https://freew.org/pricing/)
+- [Amber Phosphor](https://freew.org/amberphosphor/): a terminal theme for Apple Terminal and iTerm2. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/AmberPhosphor-theme
 
 ## Pricing terms
 
