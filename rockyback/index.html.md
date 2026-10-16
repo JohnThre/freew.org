@@ -41,7 +41,7 @@ It updates the host, hardens common attack surfaces, checks DNS and TLS, then in
 ## Use
 
 - SSH key: Install an SSH public key and confirm key login before running the installer.
-- Installer: Run `install.sh`. Interactive, `--dry-run`, or `--yes`.
+- Installer: Run `./install.sh`. Interactive, `--dry-run`, or `--yes`.
 - Source: https://github.com/JohnThre/rockyback
 
 Programming language: Shell.
