@@ -351,6 +351,57 @@ a.row:active,
   color: #aaaa33;
 }
 
+.gas-plasma .phosphor-screen {
+  background: #1a0a00;
+  color: #ff8c00;
+  font-family: "SF Mono", ui-monospace, Menlo, monospace;
+  font-size: 13px;
+}
+
+.gas-plasma .phosphor-dim {
+  color: #995200;
+}
+
+.gas-plasma .phosphor-fg {
+  color: #ff8c00;
+}
+
+.gas-plasma .phosphor-bold {
+  color: #ffd2a6;
+}
+
+.gas-plasma .phosphor-low {
+  color: #4d2600;
+}
+
+.gas-plasma .phosphor-high {
+  color: #fff0db;
+}
+
+.gas-plasma .ansi-red {
+  color: #ff4500;
+}
+
+.gas-plasma .ansi-green {
+  color: #8b9a00;
+}
+
+.gas-plasma .ansi-yellow {
+  color: #ffb347;
+}
+
+.gas-plasma .ansi-blue {
+  color: #cc7a00;
+}
+
+.gas-plasma .ansi-magenta {
+  color: #ff6b6b;
+}
+
+.gas-plasma .ansi-cyan {
+  color: #d4a017;
+}
+
 .phosphor figcaption {
   margin: 8px 16px 0;
   color: var(--secondary);
