@@ -31,6 +31,18 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   --shadow: rgba(0, 0, 0, 0.04);
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --external-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath fill='%23000' d='M1.2 4.1h2.1v1.2H2.4v4.3h4.3V8.4h1.2v2.3c0 .5-.4.9-.9.9H2.1c-.5 0-.9-.4-.9-.9V5c0-.5.4-.9.9-.9z'/%3E%3Cpath fill='%23000' d='M6.2 1.4h4.4v4.4H9.4V3.5L5.6 7.3 4.7 6.4l3.8-3.8H6.2V1.4z'/%3E%3C/svg%3E");
+  --chevron-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 9 14'%3E%3Cpath d='M2.2 1.5 6.8 7 2.2 12.5' fill='none' stroke='%23000' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  --symbol-home: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' d='M8 1.3 1.4 7h1.8v7.2h3.5V9.3h2.6v4.9h3.5V7h1.8L8 1.3z'/%3E%3C/svg%3E");
+  --symbol-tag: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M7.3 1.2 1.2 7.4l6.1 6.2 6.3-6.2V1.2H7.3zm3.6 2.2a1.15 1.15 0 1 1-2.3 0 1.15 1.15 0 0 1 2.3 0z'/%3E%3C/svg%3E");
+  --symbol-building: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' fill-rule='evenodd' d='M1.6 14.4V5.2h5.4v9.2H1.6zm1.15-6.5h1.25v1.35H2.75V7.9zm2.15 0h1.25v1.35H4.9V7.9zM2.75 10.2h1.25v1.35H2.75V10.2zm2.15 0h1.25v1.35H4.9V10.2zM8.2 14.4V3.2H14.4v11.2H8.2zm1.15-8.2h1.25v1.35H9.35V6.2zm2.2 0h1.25v1.35h-1.25V6.2zM9.35 8.6h1.25v1.35H9.35V8.6zm2.2 0h1.25v1.35h-1.25V8.6zM9.35 11h1.25v1.35H9.35V11zm2.2 0h1.25v1.35h-1.25V11z'/%3E%3C/svg%3E");
+  --symbol-cloud: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23000' d='M4.5 12.2h7.2a2.5 2.5 0 0 0 .2-5 3.3 3.3 0 0 0-6.4.8 2.3 2.3 0 0 0-1 4.2z'/%3E%3C/svg%3E");
+  --glyph-phosphor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='2.35' fill='%23fff'/%3E%3Ccircle cx='8' cy='8' r='5.15' fill='none' stroke='%23fff' stroke-width='1.35'/%3E%3C/svg%3E");
+  --glyph-terminal: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23fff' d='M1.4 4.1 6.5 8 1.4 11.9 2.8 13.4 9.4 8 2.8 2.6Z'/%3E%3Cpath fill='%23fff' d='M9.2 11.5h5.4v1.7H9.2z'/%3E%3C/svg%3E");
+  --glyph-flame: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23fff' d='M8.1 1.1c.2 2-.8 3.2-1.6 4.3-1.1 1.4-2.2 2.4-2.2 4.5 0 2.7 1.9 4.6 4.3 4.6s4.3-1.9 4.3-4.4c0-2-.9-3.2-1.4-4.8-.3 1.1-1.1 1.7-1.7 1.6.7-1.7.2-3.6-1.7-5.8z'/%3E%3C/svg%3E");
+  --glyph-swatch: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1.4' y='1.4' width='5.6' height='5.6' rx='1.3' fill='%23fff'/%3E%3Crect x='9' y='1.4' width='5.6' height='5.6' rx='1.3' fill='%23fff' fill-opacity='.72'/%3E%3Crect x='1.4' y='9' width='5.6' height='5.6' rx='1.3' fill='%23fff' fill-opacity='.72'/%3E%3Crect x='9' y='9' width='5.6' height='5.6' rx='1.3' fill='%23fff'/%3E%3C/svg%3E");
+  --glyph-page: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='2.6' y='1.4' width='10.8' height='13.2' rx='1.2' fill='%23fff'/%3E%3Cpath d='M5 5.2h6M5 8h6M5 10.8h3.8' fill='none' stroke='%23a2845e' stroke-width='1.15' stroke-linecap='round'/%3E%3C/svg%3E");
+  --glyph-server: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1.8' y='2' width='12.4' height='4.4' rx='1.1' fill='%23fff'/%3E%3Crect x='1.8' y='9.6' width='12.4' height='4.4' rx='1.1' fill='%23fff'/%3E%3Ccircle cx='4.2' cy='4.2' r='.75' fill='%238e8e93'/%3E%3Ccircle cx='4.2' cy='11.8' r='.75' fill='%238e8e93'/%3E%3C/svg%3E");
+  --glyph-lines: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.4 4.2h11.2M2.4 8h11.2M2.4 11.8h7' fill='none' stroke='%23fff' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,6 +82,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .skip {
   position: absolute;
   left: 16px;
@@ -77,6 +93,7 @@ body {
   z-index: 4;
   padding: 8px 12px;
   border-radius: 10px;
+  corner-shape: squircle;
   background: var(--card);
   color: var(--blue);
 }
@@ -138,6 +155,7 @@ body {
   min-height: 36px;
   padding: 6px 12px;
   border-radius: 10px;
+  corner-shape: squircle;
   color: var(--blue);
   font-size: 15px;
   letter-spacing: -0.016em;
@@ -193,8 +211,9 @@ h1 {
 }
 
 .lede {
-  font-size: 20px;
-  line-height: 1.35;
+  color: var(--secondary);
+  font-size: 17px;
+  line-height: 1.47;
   letter-spacing: -0.022em;
 }
 
@@ -213,11 +232,13 @@ h1 {
   list-style: none;
   background: var(--card);
   border-radius: 12px;
-  box-shadow: 0 0 0 0.5px var(--shadow);
+  corner-shape: squircle;
   overflow: hidden;
 }
 
 .row {
+  --sep-inset: 16px;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -225,13 +246,24 @@ h1 {
   min-height: 44px;
   margin: 0;
   padding: 11px 16px;
-  border-bottom: 0.5px solid var(--separator);
   color: inherit;
   text-decoration: none;
 }
 
-.row:last-child {
-  border-bottom: 0;
+.row > span:not(.chevron) {
+  flex: 1;
+  min-width: 0;
+}
+
+.row:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: var(--sep-inset);
+  right: 0;
+  bottom: 0;
+  height: 0.5px;
+  background: var(--separator);
+  pointer-events: none;
 }
 
 a.row:active,
@@ -274,11 +306,79 @@ a.row:active,
 .chevron {
   flex: none;
   width: 8px;
-  height: 8px;
-  margin-right: 2px;
-  border-top: 1.5px solid var(--secondary);
-  border-right: 1.5px solid var(--secondary);
-  transform: rotate(45deg);
+  height: 13px;
+  background: var(--secondary);
+  -webkit-mask-image: var(--chevron-icon);
+  mask-image: var(--chevron-icon);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+a.row[href="/amberphosphor/"],
+a.row[href="/ctmu/"],
+a.row[href="/gasplasma/"],
+a.row[href="/ibtheme/"],
+a.row[href="/p1pw/"],
+a.row[href="/rockyback/"],
+a.row[href="/wordperfectblue/"] {
+  --sep-inset: 58px;
+}
+
+a.row[href="/amberphosphor/"]::before,
+a.row[href="/ctmu/"]::before,
+a.row[href="/gasplasma/"]::before,
+a.row[href="/ibtheme/"]::before,
+a.row[href="/p1pw/"]::before,
+a.row[href="/rockyback/"]::before,
+a.row[href="/wordperfectblue/"]::before {
+  content: "";
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  corner-shape: squircle;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 18px 18px;
+}
+
+a.row[href="/amberphosphor/"]::before {
+  background-color: #ffb000;
+  background-image: var(--glyph-phosphor);
+}
+
+a.row[href="/ctmu/"]::before {
+  background-color: #34c759;
+  background-image: var(--glyph-terminal);
+}
+
+a.row[href="/gasplasma/"]::before {
+  background-color: #ff8c00;
+  background-image: var(--glyph-flame);
+}
+
+a.row[href="/ibtheme/"]::before {
+  background-color: #0f62fe;
+  background-image: var(--glyph-swatch);
+}
+
+a.row[href="/p1pw/"]::before {
+  background-color: #a2845e;
+  background-image: var(--glyph-page);
+}
+
+a.row[href="/rockyback/"]::before {
+  background-color: #8e8e93;
+  background-image: var(--glyph-server);
+}
+
+a.row[href="/wordperfectblue/"]::before {
+  background-color: #00007b;
+  background-image: var(--glyph-lines);
 }
 
 .empty {
@@ -296,6 +396,7 @@ a.row:active,
   margin: 0;
   padding: 16px 18px;
   border-radius: 12px;
+  corner-shape: squircle;
   background: #1a1000;
   color: #ffb000;
   font-family: Menlo, ui-monospace, "SF Mono", monospace;
@@ -569,8 +670,15 @@ a.row:active,
 .colophon a,
 .copy a {
   color: var(--blue);
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 2px;
+}
+
+.colophon a:hover,
+.copy a:hover,
+.colophon a:focus-visible,
+.copy a:focus-visible {
+  text-decoration: underline;
 }
 
 @media (min-width: 900px) {
@@ -612,8 +720,46 @@ a.row:active,
     background: var(--selection);
   }
 
+  .side-nav a[href="/"]::before,
+  .side-nav a[href="/pricing/"]::before,
+  .side-nav a[href="https://swiphtgroup.com/"]::before,
+  .side-nav a[href="https://clambercloud.com/"]::before {
+    content: "";
+    flex: none;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    background: currentColor;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+  }
+
+  .side-nav a[href="/"]::before {
+    -webkit-mask-image: var(--symbol-home);
+    mask-image: var(--symbol-home);
+  }
+
+  .side-nav a[href="/pricing/"]::before {
+    -webkit-mask-image: var(--symbol-tag);
+    mask-image: var(--symbol-tag);
+  }
+
+  .side-nav a[href="https://swiphtgroup.com/"]::before {
+    -webkit-mask-image: var(--symbol-building);
+    mask-image: var(--symbol-building);
+  }
+
+  .side-nav a[href="https://clambercloud.com/"]::before {
+    -webkit-mask-image: var(--symbol-cloud);
+    mask-image: var(--symbol-cloud);
+  }
+
   .sheet {
-    margin-inline: auto;
+    margin-inline: 0;
     padding-top: 48px;
   }
 }
