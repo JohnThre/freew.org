@@ -402,6 +402,60 @@ a.row:active,
   color: #d4a017;
 }
 
+.ib-dark .phosphor-screen {
+  background: #161616;
+  color: #ffffff;
+}
+
+.ib-light .phosphor-screen {
+  background: #ffffff;
+  color: #161616;
+}
+
+.ib-dark .ib-keyword {
+  color: #be95ff;
+}
+
+.ib-dark .ib-string {
+  color: #42be65;
+}
+
+.ib-dark .ib-function {
+  color: #78a9ff;
+}
+
+.ib-dark .ib-class {
+  color: #ff7eb6;
+}
+
+.ib-dark .ib-number {
+  color: #ff8389;
+}
+
+.ib-light .ib-keyword {
+  color: #8a3ffc;
+}
+
+.ib-light .ib-string {
+  color: #198038;
+}
+
+.ib-light .ib-function {
+  color: #0043ce;
+}
+
+.ib-light .ib-class {
+  color: #9f1853;
+}
+
+.ib-light .ib-number {
+  color: #da1e28;
+}
+
+.ib-accent {
+  color: #0f62fe;
+}
+
 .phosphor figcaption {
   margin: 8px 16px 0;
   color: var(--secondary);

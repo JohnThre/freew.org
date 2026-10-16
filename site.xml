@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, Gas Plasma, and RockyBack. RockyBack is proprietary.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, Gas Plasma, iB-theme, and RockyBack. RockyBack is proprietary.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
@@ -43,6 +43,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <charge>free</charge>
       <freedom license="GPL-3.0-or-later">free-software</freedom>
       <summary>Orange-dominant dark theme for Apple Terminal, iTerm2, VS Code, and Zed.</summary>
+    </work>
+    <work id="ibtheme">
+      <name>iB-theme</name>
+      <url>https://freew.org/ibtheme/</url>
+      <source>https://github.com/JohnThre/iB-theme</source>
+      <charge>free</charge>
+      <freedom license="GPL-3.0-or-later">free-software</freedom>
+      <summary>IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2.</summary>
     </work>
     <work id="rockyback">
       <name>RockyBack</name>
