@@ -402,6 +402,53 @@ a.row:active,
   color: #d4a017;
 }
 
+.p1pw .phosphor-screen {
+  background: #f5f5f0;
+  color: #1a1a1a;
+  font-family: "SF Mono", ui-monospace, Menlo, monospace;
+  font-size: 11px;
+}
+
+.p1pw .phosphor-dim {
+  color: #555555;
+}
+
+.p1pw .phosphor-fg {
+  color: #1a1a1a;
+}
+
+.p1pw .phosphor-bold {
+  color: #000000;
+}
+
+.p1pw .phosphor-low {
+  color: #333333;
+}
+
+.p1pw .ansi-red {
+  color: #c41a16;
+}
+
+.p1pw .ansi-green {
+  color: #007400;
+}
+
+.p1pw .ansi-yellow {
+  color: #826b28;
+}
+
+.p1pw .ansi-blue {
+  color: #0000d6;
+}
+
+.p1pw .ansi-magenta {
+  color: #a90d91;
+}
+
+.p1pw .ansi-cyan {
+  color: #3e8a89;
+}
+
 .ib-dark .phosphor-screen {
   background: #161616;
   color: #ffffff;
