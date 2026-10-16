@@ -30,6 +30,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   --selection: rgba(0, 0, 0, 0.06);
   --shadow: rgba(0, 0, 0, 0.04);
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --external-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath fill='%23000' d='M1.2 4.1h2.1v1.2H2.4v4.3h4.3V8.4h1.2v2.3c0 .5-.4.9-.9.9H2.1c-.5 0-.9-.4-.9-.9V5c0-.5.4-.9.9-.9z'/%3E%3Cpath fill='%23000' d='M6.2 1.4h4.4v4.4H9.4V3.5L5.6 7.3 4.7 6.4l3.8-3.8H6.2V1.4z'/%3E%3C/svg%3E");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -149,6 +150,27 @@ body {
   font-weight: 600;
 }
 
+.side-nav a.external::after,
+a.row.external .row-title::after {
+  content: "";
+  display: inline-block;
+  flex: none;
+  width: 9px;
+  height: 9px;
+  margin-left: 5px;
+  vertical-align: -1px;
+  background: currentColor;
+  opacity: 0.72;
+  -webkit-mask-image: var(--external-icon);
+  mask-image: var(--external-icon);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
 .sheet {
   width: min(680px, 100%);
   margin: 0;
@@ -212,6 +234,18 @@ h1 {
   border-bottom: 0;
 }
 
+a.row:active,
+.side-nav a:active {
+  background: var(--selection);
+}
+
+@media (hover: hover) {
+  a.row:hover,
+  .side-nav a:hover {
+    background: var(--selection);
+  }
+}
+
 .row-title {
   display: block;
   font-weight: 400;
@@ -224,6 +258,17 @@ h1 {
   font-size: 15px;
   line-height: 1.33;
   letter-spacing: -0.016em;
+}
+
+.row-detail code {
+  font-family: Menlo, ui-monospace, "SF Mono", monospace;
+  font-size: 0.92em;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
+.group + .copy {
+  margin-top: 20px;
 }
 
 .chevron {
@@ -256,12 +301,54 @@ h1 {
   font-family: Menlo, ui-monospace, "SF Mono", monospace;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.55;
   letter-spacing: 0;
+  white-space: pre-wrap;
 }
 
 .phosphor-dim {
   color: #665500;
+}
+
+.phosphor-fg {
+  color: #ffb000;
+}
+
+.phosphor-bold {
+  color: #ffd066;
+  font-weight: 700;
+}
+
+.phosphor-low {
+  color: #332200;
+}
+
+.phosphor-high {
+  color: #ffe099;
+}
+
+.ansi-red {
+  color: #ff6622;
+}
+
+.ansi-green {
+  color: #88aa00;
+}
+
+.ansi-yellow {
+  color: #ffb000;
+}
+
+.ansi-blue {
+  color: #cc8844;
+}
+
+.ansi-magenta {
+  color: #dd7744;
+}
+
+.ansi-cyan {
+  color: #aaaa33;
 }
 
 .phosphor figcaption {
@@ -331,7 +418,8 @@ h1 {
   }
 
   .sheet {
-    padding-top: 36px;
+    margin-inline: auto;
+    padding-top: 48px;
   }
 }
 
