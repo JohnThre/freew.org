@@ -1,0 +1,44 @@
+<!--
+freew.org presents apps and repositories you can use without paying.
+Copyright (C) 2026 Pengfan Chang
+Contact: https://swiphtgroup.com/
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+# freew.org
+
+> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). No apps or repositories are listed yet.
+
+swiphtgroup.com is the main Swipht Group site: https://swiphtgroup.com/
+clambercloud.com is the related Clamber site: https://clambercloud.com/
+
+## Pages
+
+- [Home](https://freew.org/)
+- [Pricing](https://freew.org/pricing/)
+
+## Pricing terms
+
+- Free of charge: no payment is required to use the work.
+- Free software: freedom to use, study, share, and change the work. Free of charge is not the same thing.
+
+## License
+
+freew.org is free software. You can redistribute it and change it under the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version. The source is at https://github.com/JohnThre/freew.org.
+
+Author: Pengfan Chang
+Organization: Swipht Group
+Main site: https://swiphtgroup.com/
+Related site: https://clambercloud.com/
