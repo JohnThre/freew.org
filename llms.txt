@@ -19,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # freew.org
 
-> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). The catalog lists Amber Phosphor.
+> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). The catalog lists Amber Phosphor and RockyBack. RockyBack is proprietary.
 
 swiphtgroup.com is the main Swipht Group site: https://swiphtgroup.com/
 clambercloud.com is the related Clamber site: https://clambercloud.com/
@@ -29,6 +29,7 @@ clambercloud.com is the related Clamber site: https://clambercloud.com/
 - [Home](https://freew.org/)
 - [Pricing](https://freew.org/pricing/)
 - [Amber Phosphor](https://freew.org/amberphosphor/): a terminal theme for Apple Terminal and iTerm2. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/AmberPhosphor-theme
+- [RockyBack](https://freew.org/rockyback/): prepares Rocky Linux 9 or AlmaLinux 9 and installs ClambBack. Free of charge. Proprietary, and not free software. Source: https://github.com/JohnThre/rockyback. License: https://github.com/JohnThre/rockyback/blob/main/LICENSE
 
 ## Pricing terms
 

@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor and RockyBack. RockyBack is proprietary.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
@@ -35,6 +35,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <charge>free</charge>
       <freedom license="GPL-3.0">free-software</freedom>
       <summary>Amber phosphor terminal theme for Apple Terminal and iTerm2.</summary>
+    </work>
+    <work id="rockyback">
+      <name>RockyBack</name>
+      <url>https://freew.org/rockyback/</url>
+      <source>https://github.com/JohnThre/rockyback</source>
+      <charge>free</charge>
+      <freedom license="proprietary">not-free-software</freedom>
+      <summary>Prepares Rocky Linux 9 or AlmaLinux 9 and installs ClambBack.</summary>
     </work>
   </catalog>
 </site>
