@@ -35,7 +35,7 @@ A presentation of apps and repositories you can use without paying.
 
 Some of that work is free software. Free software means freedom to use, study, share, and change the work. A price of zero is not the same thing.
 
-Pricing lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, and WordPerfect Blue are free software. RockyBack is proprietary.
+[Pricing](https://freew.org/pricing/) lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, and WordPerfect Blue are free software. RockyBack is proprietary.
 
 Author: Pengfan Chang (Swipht Group). https://swiphtgroup.com/
 
