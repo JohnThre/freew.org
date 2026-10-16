@@ -449,6 +449,49 @@ a.row:active,
   color: #3e8a89;
 }
 
+.wordperfectblue .phosphor-screen {
+  background: #00007b;
+  color: #ffffff;
+  font-family: Courier, "Courier New", monospace;
+  font-size: 14px;
+}
+
+.wordperfectblue .phosphor-dim {
+  color: #333388;
+}
+
+.wordperfectblue .phosphor-fg {
+  color: #ffffff;
+}
+
+.wordperfectblue .phosphor-bold {
+  color: #e0e8ff;
+}
+
+.wordperfectblue .ansi-red {
+  color: #cc4444;
+}
+
+.wordperfectblue .ansi-green {
+  color: #44bb44;
+}
+
+.wordperfectblue .ansi-yellow {
+  color: #cccc44;
+}
+
+.wordperfectblue .ansi-blue {
+  color: #5577dd;
+}
+
+.wordperfectblue .ansi-magenta {
+  color: #bb55bb;
+}
+
+.wordperfectblue .ansi-cyan {
+  color: #44bbbb;
+}
+
 .ib-dark .phosphor-screen {
   background: #161616;
   color: #ffffff;
