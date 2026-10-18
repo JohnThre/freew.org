@@ -29,6 +29,7 @@ The catalog is also published as XML: https://freew.org/site.xml
 
 - [Home](https://freew.org/index.html.md): Canonical page: https://freew.org/
 - [Pricing](https://freew.org/pricing/index.html.md): Canonical page: https://freew.org/pricing/
+- [Donate](https://freew.org/donate/index.html.md): Canonical page: https://freew.org/donate/
 - [Amber Phosphor](https://freew.org/amberphosphor/index.html.md): a terminal theme for Apple Terminal and iTerm2. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/AmberPhosphor-theme. Canonical page: https://freew.org/amberphosphor/
 - [CTMU](https://freew.org/ctmu/index.html.md): a command-line tool for macOS. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/CTMU-for-macOS. Canonical page: https://freew.org/ctmu/
 - [Gas Plasma](https://freew.org/gasplasma/index.html.md): an orange-dominant dark theme for Apple Terminal, iTerm2, VS Code, and Zed. Free of charge, and free software under the GNU General Public License, version 3 or later. Source: https://github.com/JohnThre/GasPlasma-theme. Canonical page: https://freew.org/gasplasma/
@@ -42,6 +43,14 @@ The catalog is also published as XML: https://freew.org/site.xml
 
 - Free of charge: no payment is required to use the work.
 - Free software: freedom to use, study, share, and change the work. Free of charge is not the same thing.
+
+## Donate
+
+- Liberapay: https://en.liberapay.com/jpfchang/
+- Ko-fi: https://ko-fi.com/jpfchang
+- IssueHunt: https://oss.issuehunt.io/u/johnthre
+
+Donations are optional. They do not grant a license, and they do not grant permission to use RockyBack or Pascal.
 
 ## License
 

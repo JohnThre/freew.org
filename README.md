@@ -9,6 +9,10 @@ Author: Pengfan Chang (Swipht Group).
 
 The previous game is archived in the private repository `freedom-wuxia`. This site is HTML, CSS, and XML. Serve the directory with a static file server and open `/`.
 
+## Donate
+
+You can donate through [Liberapay](https://en.liberapay.com/jpfchang/), [Ko-fi](https://ko-fi.com/jpfchang), or [IssueHunt](https://oss.issuehunt.io/u/johnthre). See https://freew.org/donate/. Donations are optional. They do not grant a license, and they do not grant permission to use RockyBack or Pascal.
+
 ## License
 
 freew.org is free software. You can redistribute it and change it under the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version. See [LICENSE](LICENSE). The source is at https://github.com/JohnThre/freew.org.

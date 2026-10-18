@@ -28,18 +28,23 @@ This page presents apps and repositories you can use without paying.
 - Free of charge: No payment is required to use it.
 - Free software: The work respects your freedom to use, study, share, and change it. Free of charge is not the same thing.
 
-## Catalog
+## Free software
 
 - [Amber Phosphor](https://freew.org/amberphosphor/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/amberphosphor/
 - [CTMU](https://freew.org/ctmu/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/ctmu/
 - [Gas Plasma](https://freew.org/gasplasma/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/gasplasma/
 - [iB-theme](https://freew.org/ibtheme/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/ibtheme/
 - [P1PW](https://freew.org/p1pw/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/p1pw/
-- [Pascal](https://freew.org/pascal/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/pascal/
-- [RockyBack](https://freew.org/rockyback/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/rockyback/
 - [WordPerfect Blue](https://freew.org/wordperfectblue/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/wordperfectblue/
 
+## Not free software
+
+- [Pascal](https://freew.org/pascal/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/pascal/
+- [RockyBack](https://freew.org/rockyback/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/rockyback/
+
 Author: Pengfan Chang (Swipht Group). https://swiphtgroup.com/
+
+You can donate through Liberapay, Ko-fi, or IssueHunt: https://freew.org/donate/
 
 swiphtgroup.com is the main Swipht Group site. clambercloud.com is the related Clamber site. https://clambercloud.com/
 
