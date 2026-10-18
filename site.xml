@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, RockyBack, and WordPerfect Blue. RockyBack is proprietary, and its published license grants no permission to use it.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, and WordPerfect Blue. RockyBack and Pascal are proprietary, and their published licenses grant no permission to use them.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
@@ -67,6 +67,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <charge>free</charge>
       <freedom license="GPL-3.0">free-software</freedom>
       <summary>Warm, paper-toned light theme for Apple Terminal.</summary>
+    </work>
+    <work id="pascal">
+      <name>Pascal</name>
+      <url>https://freew.org/pascal/</url>
+      <source>https://github.com/JohnThre/Pascal.novaextension</source>
+      <charge>no-public-permission</charge>
+      <freedom license="proprietary">not-free-software</freedom>
+      <summary>Pascal and Object Pascal support for the Nova editor, with Free Pascal build, run, and diagnostics.</summary>
     </work>
     <work id="rockyback">
       <name>RockyBack</name>
