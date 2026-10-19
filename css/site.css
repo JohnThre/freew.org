@@ -47,6 +47,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   --glyph-heart: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%231d1d1f' d='M8 14.2 6.9 13.2C3 9.7 1.3 8 1.3 5.6c0-1.9 1.5-3.4 3.4-3.4 1.3 0 2.5.6 3.3 1.6.8-1 2-1.6 3.3-1.6 1.9 0 3.4 1.5 3.4 3.4 0 2.4-1.7 4.1-5.6 7.6L8 14.2z'/%3E%3C/svg%3E");
   --glyph-cup: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23fff' d='M1.8 4.2h9.4v5.4a3.4 3.4 0 0 1-3.4 3.4H5.2a3.4 3.4 0 0 1-3.4-3.4V4.2z'/%3E%3Cpath d='M11.2 5.6h1.2a1.75 1.75 0 0 1 0 3.5h-1.2' fill='none' stroke='%23fff' stroke-width='1.4'/%3E%3C/svg%3E");
   --glyph-target: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='5.6' fill='none' stroke='%23fff' stroke-width='1.4'/%3E%3Ccircle cx='8' cy='8' r='2.9' fill='none' stroke='%23fff' stroke-width='1.4'/%3E%3Ccircle cx='8' cy='8' r='1' fill='%23fff'/%3E%3C/svg%3E");
+  --glyph-punchcard: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.4 2.4h9a1.2 1.2 0 0 1 1.2 1.2v8.8a1.2 1.2 0 0 1-1.2 1.2H2.6a1.2 1.2 0 0 1-1.2-1.2V5.4z' fill='%23fff'/%3E%3Cpath d='M5.4 5.6v1.6M8 5.6v1.6M12.2 5.6v1.6M6.7 8.9v1.6M9.3 8.9v1.6M10.9 5.6v1.6M4.1 8.9v1.6M12.2 8.9v1.6' fill='none' stroke='%23248a9e' stroke-width='1.1'/%3E%3C/svg%3E");
   --glyph-lines: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.4 4.2h11.2M2.4 8h11.2M2.4 11.8h7' fill='none' stroke='%23fff' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
 }
 
@@ -336,6 +337,7 @@ a.row:active,
 }
 
 a.row[href="/amberphosphor/"],
+a.row[href="/cobol/"],
 a.row[href="/ctmu/"],
 a.row[href="/gasplasma/"],
 a.row[href="/ibtheme/"],
@@ -350,6 +352,7 @@ a.row[href="https://oss.issuehunt.io/u/johnthre"] {
 }
 
 a.row[href="/amberphosphor/"]::before,
+a.row[href="/cobol/"]::before,
 a.row[href="/ctmu/"]::before,
 a.row[href="/gasplasma/"]::before,
 a.row[href="/ibtheme/"]::before,
@@ -374,6 +377,11 @@ a.row[href="https://oss.issuehunt.io/u/johnthre"]::before {
 a.row[href="/amberphosphor/"]::before {
   background-color: #ffb000;
   background-image: var(--glyph-phosphor);
+}
+
+a.row[href="/cobol/"]::before {
+  background-color: #248a9e;
+  background-image: var(--glyph-punchcard);
 }
 
 a.row[href="/ctmu/"]::before {

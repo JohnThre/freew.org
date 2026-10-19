@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, and WordPerfect Blue. RockyBack and Pascal are proprietary, and their published licenses grant no permission to use them.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, and WordPerfect Blue. RockyBack, Pascal, and COBOL are proprietary, and their published licenses grant no permission to use them.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
@@ -38,6 +38,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <charge>free</charge>
       <freedom license="GPL-3.0">free-software</freedom>
       <summary>Amber phosphor terminal theme for Apple Terminal and iTerm2.</summary>
+    </work>
+    <work id="cobol">
+      <name>COBOL</name>
+      <url>https://freew.org/cobol/</url>
+      <source>https://github.com/JohnThre/COBOL.novaextension</source>
+      <charge>no-public-permission</charge>
+      <freedom license="proprietary">not-free-software</freedom>
+      <summary>COBOL support for the Nova editor in fixed and free format, with GnuCOBOL build, run, debugging, and diagnostics.</summary>
     </work>
     <work id="ctmu">
       <name>CTMU</name>

@@ -39,6 +39,7 @@ This page presents apps and repositories you can use without paying.
 
 ## Not free software
 
+- [COBOL](https://freew.org/cobol/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/cobol/
 - [Pascal](https://freew.org/pascal/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/pascal/
 - [RockyBack](https://freew.org/rockyback/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/rockyback/
 

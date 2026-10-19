@@ -1,0 +1,26 @@
+WEBVTT
+
+00:00.000 --> 00:02.548
+COBOL for Nova, from Swipht Group.
+
+00:02.548 --> 00:13.416
+Open a COBOL program in fixed or free format, and Nova highlights it, including embedded SQL, with a symbol list for divisions, sections, and paragraphs.
+
+00:13.416 --> 00:16.931
+Completions follow your COPY statements into copybooks.
+
+00:16.931 --> 00:23.464
+Jump to definitions, find references, rename names, and see a record's offsets and lengths.
+
+00:23.464 --> 00:28.954
+Save, and GnuCOBOL checks your code, so errors appear right in the editor.
+
+00:28.954 --> 00:33.041
+Build, run, and debug from the GnuCOBOL tasks.
+
+00:33.041 --> 00:35.350
+It needs Nova 11 or later.
+
+00:35.350 --> 00:39.080
+Find COBOL in the Nova Extension Library.
+
