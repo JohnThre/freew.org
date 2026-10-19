@@ -48,6 +48,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   --glyph-cup: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23fff' d='M1.8 4.2h9.4v5.4a3.4 3.4 0 0 1-3.4 3.4H5.2a3.4 3.4 0 0 1-3.4-3.4V4.2z'/%3E%3Cpath d='M11.2 5.6h1.2a1.75 1.75 0 0 1 0 3.5h-1.2' fill='none' stroke='%23fff' stroke-width='1.4'/%3E%3C/svg%3E");
   --glyph-target: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='5.6' fill='none' stroke='%23fff' stroke-width='1.4'/%3E%3Ccircle cx='8' cy='8' r='2.9' fill='none' stroke='%23fff' stroke-width='1.4'/%3E%3Ccircle cx='8' cy='8' r='1' fill='%23fff'/%3E%3C/svg%3E");
   --glyph-punchcard: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4.4 2.4h9a1.2 1.2 0 0 1 1.2 1.2v8.8a1.2 1.2 0 0 1-1.2 1.2H2.6a1.2 1.2 0 0 1-1.2-1.2V5.4z' fill='%23fff'/%3E%3Cpath d='M5.4 5.6v1.6M8 5.6v1.6M12.2 5.6v1.6M6.7 8.9v1.6M9.3 8.9v1.6M10.9 5.6v1.6M4.1 8.9v1.6M12.2 8.9v1.6' fill='none' stroke='%23248a9e' stroke-width='1.1'/%3E%3C/svg%3E");
+  --glyph-form: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1.65' y='2.45' width='12.7' height='11.1' rx='1.2' fill='none' stroke='%23fff' stroke-width='1.3'/%3E%3Cpath d='M2.6 1.8h10.8a1.6 1.6 0 0 1 1.6 1.6v2H1v-2a1.6 1.6 0 0 1 1.6-1.6z' fill='%23fff'/%3E%3Crect x='4.3' y='8.1' width='7.4' height='3' rx='.4' fill='none' stroke='%23fff' stroke-width='1.1'/%3E%3C/svg%3E");
   --glyph-lines: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2.4 4.2h11.2M2.4 8h11.2M2.4 11.8h7' fill='none' stroke='%23fff' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
 }
 
@@ -344,6 +345,7 @@ a.row[href="/ibtheme/"],
 a.row[href="/p1pw/"],
 a.row[href="/pascal/"],
 a.row[href="/rockyback/"],
+a.row[href="/vbnet/"],
 a.row[href="/wordperfectblue/"],
 a.row[href="https://en.liberapay.com/jpfchang/"],
 a.row[href="https://ko-fi.com/jpfchang"],
@@ -359,6 +361,7 @@ a.row[href="/ibtheme/"]::before,
 a.row[href="/p1pw/"]::before,
 a.row[href="/pascal/"]::before,
 a.row[href="/rockyback/"]::before,
+a.row[href="/vbnet/"]::before,
 a.row[href="/wordperfectblue/"]::before,
 a.row[href="https://en.liberapay.com/jpfchang/"]::before,
 a.row[href="https://ko-fi.com/jpfchang"]::before,
@@ -412,6 +415,11 @@ a.row[href="/pascal/"]::before {
 a.row[href="/rockyback/"]::before {
   background-color: #8e8e93;
   background-image: var(--glyph-server);
+}
+
+a.row[href="/vbnet/"]::before {
+  background-color: #5c2d78;
+  background-image: var(--glyph-form);
 }
 
 a.row[href="/wordperfectblue/"]::before {

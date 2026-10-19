@@ -31,7 +31,7 @@ Donations support the work listed on freew.org. They are optional.
 
 ## Terms
 
-- Donations buy nothing: They do not grant a license, and they do not grant permission to use RockyBack, Pascal, or COBOL.
+- Donations buy nothing: They do not grant a license, and they do not grant permission to use RockyBack, Pascal, COBOL, or VB.NET.
 
 [Pricing](https://freew.org/pricing/) lists what each work in the catalog allows.
 

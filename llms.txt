@@ -19,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # freew.org
 
-> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). The catalog lists Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, and WordPerfect Blue. RockyBack, Pascal, and COBOL are proprietary, and their published licenses grant no permission to use them.
+> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). The catalog lists Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. RockyBack, Pascal, COBOL, and VB.NET are proprietary, and their published licenses grant no permission to use them.
 
 swiphtgroup.com is the main Swipht Group site: https://swiphtgroup.com/
 clambercloud.com is the related Clamber site: https://clambercloud.com/
@@ -38,6 +38,7 @@ The catalog is also published as XML: https://freew.org/site.xml
 - [P1PW](https://freew.org/p1pw/index.html.md): a warm, paper-toned light theme for Apple Terminal. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/P1PW-theme. Canonical page: https://freew.org/p1pw/
 - [Pascal](https://freew.org/pascal/index.html.md): Pascal and Object Pascal support for the Nova editor, with syntax, symbols, completions, clips, ptop formatting, and Free Pascal build, run, and diagnostics. The published license grants no permission to use it. Proprietary, and not free software. Source: https://github.com/JohnThre/Pascal.novaextension. License: https://github.com/JohnThre/Pascal.novaextension/blob/main/LICENSE. Canonical page: https://freew.org/pascal/
 - [RockyBack](https://freew.org/rockyback/index.html.md): prepares Rocky Linux 9 or AlmaLinux 9 and installs ClambBack. The published license grants no permission to use it. Proprietary, and not free software. Source: https://github.com/JohnThre/rockyback. License: https://github.com/JohnThre/rockyback/blob/main/LICENSE. Canonical page: https://freew.org/rockyback/
+- [VB.NET](https://freew.org/vbnet/index.html.md): Visual Basic .NET support for the Nova editor, with syntax, symbols, completions, clips, formatting, and .NET SDK build, run, watch, test, publish, NuGet packages, project references, and diagnostics. The published license grants no permission to use it. Proprietary, and not free software. Source: https://github.com/JohnThre/VB.NET.novaextension. License: https://github.com/JohnThre/VB.NET.novaextension/blob/main/LICENSE. Canonical page: https://freew.org/vbnet/
 - [WordPerfect Blue](https://freew.org/wordperfectblue/index.html.md): a WordPerfect 5.1 white-on-blue theme for Apple Terminal. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/WordPerfectBlue-theme. Canonical page: https://freew.org/wordperfectblue/
 
 ## Pricing terms
@@ -51,7 +52,7 @@ The catalog is also published as XML: https://freew.org/site.xml
 - Ko-fi: https://ko-fi.com/jpfchang
 - IssueHunt: https://oss.issuehunt.io/u/johnthre
 
-Donations are optional. They do not grant a license, and they do not grant permission to use RockyBack, Pascal, or COBOL.
+Donations are optional. They do not grant a license, and they do not grant permission to use RockyBack, Pascal, COBOL, or VB.NET.
 
 ## License
 

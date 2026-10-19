@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, and WordPerfect Blue. RockyBack, Pascal, and COBOL are proprietary, and their published licenses grant no permission to use them.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. RockyBack, Pascal, COBOL, and VB.NET are proprietary, and their published licenses grant no permission to use them.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
@@ -94,6 +94,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <charge>no-public-permission</charge>
       <freedom license="proprietary">not-free-software</freedom>
       <summary>Prepares Rocky Linux 9 or AlmaLinux 9 and installs ClambBack.</summary>
+    </work>
+    <work id="vbnet">
+      <name>VB.NET</name>
+      <url>https://freew.org/vbnet/</url>
+      <source>https://github.com/JohnThre/VB.NET.novaextension</source>
+      <charge>no-public-permission</charge>
+      <freedom license="proprietary">not-free-software</freedom>
+      <summary>Visual Basic .NET support for the Nova editor, with .NET SDK build, run, test, publish, and diagnostics.</summary>
     </work>
     <work id="wordperfectblue">
       <name>WordPerfect Blue</name>
