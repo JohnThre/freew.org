@@ -34,6 +34,7 @@ A presentation of apps and repositories you can use without paying.
 
 ## Not free software
 
+- [Air Traffic Control (ATC)](https://freew.org/atc/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/atc/
 - [COBOL](https://freew.org/cobol/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/cobol/
 - [Pascal](https://freew.org/pascal/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/pascal/
 - [RockyBack](https://freew.org/rockyback/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/rockyback/
@@ -41,7 +42,7 @@ A presentation of apps and repositories you can use without paying.
 
 Some of that work is free software. Free software means freedom to use, study, share, and change the work. A price of zero is not the same thing.
 
-[Pricing](https://freew.org/pricing/) lists Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, and WordPerfect Blue are free software. RockyBack, Pascal, COBOL, and VB.NET are proprietary, and their published licenses grant no permission to use them.
+[Pricing](https://freew.org/pricing/) lists Air Traffic Control (ATC), Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, and WordPerfect Blue are free software. RockyBack, Pascal, COBOL, VB.NET, and Air Traffic Control (ATC) are proprietary, and their published licenses grant no permission to use them.
 
 Author: Pengfan Chang (Swipht Group). https://swiphtgroup.com/
 

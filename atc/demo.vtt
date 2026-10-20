@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00.000 --> 00:03.350
+Air Traffic Control for Nova, from Swipht Group.
+
+00:03.350 --> 00:14.350
+It runs coding agents right in Nova: Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, and Grok.
+
+00:14.350 --> 00:16.870
+Write a flight plan, and take off.
+
+00:16.870 --> 00:22.080
+Each flight works in its own Git worktree, and you follow it in a live transcript.
+
+00:22.080 --> 00:28.610
+When it lands, review the diff, write a comment right in it, and send it back to the same agent session.
+
+00:28.610 --> 00:34.290
+Race several agents, or several sessions of one, and let another agent judge the results.
+
+00:34.290 --> 00:36.020
+Then merge the winner.
+
+00:36.020 --> 00:40.510
+It needs Nova 11 or later, and at least one agent CLI.
+
+00:40.510 --> 00:44.240
+Find Air Traffic Control in the Nova Extension Library.

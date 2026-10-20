@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. RockyBack, Pascal, COBOL, and VB.NET are proprietary, and their published licenses grant no permission to use them.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Air Traffic Control (ATC), Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. RockyBack, Pascal, COBOL, VB.NET, and Air Traffic Control (ATC) are proprietary, and their published licenses grant no permission to use them.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
@@ -31,6 +31,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   <donate href="https://ko-fi.com/jpfchang">Ko-fi</donate>
   <donate href="https://oss.issuehunt.io/u/johnthre">IssueHunt</donate>
   <catalog>
+    <work id="atc">
+      <name>Air Traffic Control (ATC)</name>
+      <url>https://freew.org/atc/</url>
+      <source>https://github.com/JohnThre/AirTrafficControl.novaextension</source>
+      <charge>no-public-permission</charge>
+      <freedom license="proprietary">not-free-software</freedom>
+      <summary>Runs and coordinates coding agents from the Nova editor, each flight in its own Git worktree, with diff review, races, hand-offs, and merge.</summary>
+    </work>
     <work id="amberphosphor">
       <name>Amber Phosphor</name>
       <url>https://freew.org/amberphosphor/</url>

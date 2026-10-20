@@ -1,0 +1,235 @@
+<!--
+freew.org presents apps and repositories you can use without paying.
+Copyright (C) 2026 Pengfan Chang
+Contact: https://swiphtgroup.com/
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Air Traffic Control (ATC) — freew.org</title>
+    <meta name="description" content="Air Traffic Control (ATC) runs and coordinates coding agents from the Nova editor: Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, and Grok. Each flight works in its own Git worktree, with a live transcript, diff review, races, hand-offs, and merge. Its published license grants no permission to use it, and it is not free software.">
+    <meta name="author" content="Pengfan Chang">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <link rel="canonical" href="https://freew.org/atc/">
+    <link rel="author" href="https://swiphtgroup.com/">
+    <link rel="alternate" hreflang="en" href="https://freew.org/atc/">
+    <link rel="alternate" hreflang="x-default" href="https://freew.org/atc/">
+    <link rel="icon" href="/favicon.svg?v=2026-10-open-stroke-1" type="image/svg+xml">
+    <link rel="icon" href="/favicon-32x32.png?v=2026-10-open-stroke-1" type="image/png" sizes="32x32">
+    <link rel="icon" href="/favicon-16x16.png?v=2026-10-open-stroke-1" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2026-10-open-stroke-1" sizes="180x180">
+    <link rel="manifest" href="/site.webmanifest?v=2026-10-open-stroke-1">
+    <meta name="apple-mobile-web-app-title" content="freew.org">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="freew.org">
+    <meta property="og:title" content="Air Traffic Control (ATC) — freew.org">
+    <meta property="og:description" content="Runs and coordinates coding agents from the Nova editor, each flight in its own Git worktree. Its published license grants no permission to use it. Not free software.">
+    <meta property="og:url" content="https://freew.org/atc/">
+    <meta property="og:image" content="https://freew.org/atc/demo.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="1010">
+    <meta property="og:image:alt" content="Picking the winner of a two-session race in Nova, with the judge's pick marked">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Air Traffic Control (ATC) — freew.org">
+    <meta name="twitter:description" content="Runs and coordinates coding agents from the Nova editor, each flight in its own Git worktree. Its published license grants no permission to use it. Not free software.">
+    <meta name="twitter:image" content="https://freew.org/atc/demo.jpg">
+    <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html">
+    <link rel="describedby" href="https://freew.org/llms.txt">
+    <link rel="alternate" type="text/markdown" href="https://freew.org/atc/index.html.md">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://freew.org/#website",
+          "name": "freew.org",
+          "url": "https://freew.org/",
+          "publisher": { "@id": "https://swiphtgroup.com/#organization" },
+          "license": "https://www.gnu.org/licenses/agpl-3.0.html"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://freew.org/#pengfan-chang",
+          "name": "Pengfan Chang",
+          "affiliation": { "@id": "https://swiphtgroup.com/#organization" }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://swiphtgroup.com/#organization",
+          "name": "Swipht Group",
+          "url": "https://swiphtgroup.com/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://freew.org/atc/#webpage",
+          "url": "https://freew.org/atc/",
+          "name": "Air Traffic Control (ATC)",
+          "description": "Runs and coordinates coding agents from the Nova editor.",
+          "isPartOf": { "@id": "https://freew.org/#website" },
+          "relatedLink": "https://clambercloud.com/",
+          "mainEntity": { "@id": "https://freew.org/atc/#work" }
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "@id": "https://freew.org/atc/#work",
+          "name": "Air Traffic Control (ATC)",
+          "description": "Runs Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, and Grok from Nova, each flight in its own Git worktree, with diff review, races, hand-offs, and merge or pull request.",
+          "codeRepository": "https://github.com/JohnThre/AirTrafficControl.novaextension",
+          "programmingLanguage": "JavaScript",
+          "license": "https://github.com/JohnThre/AirTrafficControl.novaextension/blob/main/LICENSE",
+          "author": { "@id": "https://freew.org/#pengfan-chang" },
+          "isAccessibleForFree": false,
+          "isPartOf": { "@id": "https://freew.org/#website" }
+        }
+      ]
+    }
+    </script>
+    <link rel="stylesheet" href="/css/site.css">
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+    <div class="app">
+      <header class="sidebar">
+        <p class="wordmark" itemscope itemtype="https://schema.org/WebSite" itemid="https://freew.org/#website">
+          <a itemprop="url" href="https://freew.org/"><span itemprop="name">freew.org</span></a>
+          <link itemprop="publisher" href="https://swiphtgroup.com/#organization">
+        </p>
+        <nav class="side-nav" aria-label="Site">
+          <a href="/">Home</a>
+          <a href="/pricing/">Pricing</a>
+          <a href="/donate/">Donate</a>
+        </nav>
+        <nav class="side-nav" aria-label="Related sites">
+          <a class="external" href="https://swiphtgroup.com/">Swipht Group</a>
+          <a class="external" href="https://clambercloud.com/">Clamber</a>
+        </nav>
+      </header>
+      <div class="sheet">
+        <main id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/atc/#webpage">
+          <meta itemprop="url" content="https://freew.org/atc/">
+          <link itemprop="isPartOf" href="https://freew.org/#website">
+          <link itemprop="relatedLink" href="https://clambercloud.com/">
+          <h1 itemprop="name">Air Traffic Control (ATC)</h1>
+          <p class="lede" itemprop="description">Runs and coordinates coding agents from the Nova editor.</p>
+          <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/atc/#work">
+            <meta itemprop="name" content="Air Traffic Control (ATC)">
+            <meta itemprop="description" content="Runs Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, and Grok from Nova, each flight in its own Git worktree, with diff review, races, hand-offs, and merge or pull request.">
+            <link itemprop="codeRepository" href="https://github.com/JohnThre/AirTrafficControl.novaextension">
+            <meta itemprop="programmingLanguage" content="JavaScript">
+            <link itemprop="license" href="https://github.com/JohnThre/AirTrafficControl.novaextension/blob/main/LICENSE">
+            <p class="copy">It gives a task to Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, or Grok. Each task is a flight: one agent session, by default in its own Git worktree on an atc/ branch, so several agents can work at the same time without touching your checkout. A live Markdown transcript shows each turn with its tokens and cost. When a flight lands, you review its diff, write comments on lines starting with &gt;&gt; in the diff, and send them back to the same agent session. Editing turns in a worktree get checkpoints, so you can undo the last turn. A race sends one prompt to several agents, or to several sessions of one agent, and another agent can judge the results. You can hand a flight off to a different agent, run your test command and send failures back, fan one prompt out over files or TODO comments, and merge a flight as one commit, as one commit per turn, or as a pull request.</p>
+            <figure class="shot">
+              <img src="/atc/transcript.jpg" width="1600" height="1262" alt="A Claude Code flight's transcript in Nova after a review comment was sent back, with the flight's turns, cost, and changed files in the Flights sidebar and the installed agents in the Hangar" loading="lazy">
+              <figcaption>A flight's live transcript, with its changed files in the sidebar.</figcaption>
+            </figure>
+            <figure class="shot">
+              <img src="/atc/diff.jpg" width="1600" height="1262" alt="A flight's diff in Nova with a review comment, Also reject a fractional number of people, on a line starting with &gt;&gt;" loading="lazy">
+              <figcaption>A review comment written right in a flight's diff.</figcaption>
+            </figure>
+            <figure class="shot">
+              <img src="/atc/race.jpg" width="1600" height="1262" alt="Compare Race in Nova, a table of two Claude Code sessions with their status, files, lines changed, tokens, cost, and time" loading="lazy">
+              <figcaption>Compare Race for a best-of-two race.</figcaption>
+            </figure>
+            <figure class="shot">
+              <video controls preload="none" playsinline poster="/atc/demo.jpg" width="1280" height="1010">
+                <source src="/atc/demo.mp4" type="video/mp4">
+                <track kind="captions" src="/atc/demo.vtt" srclang="en" label="English" default>
+              </video>
+              <figcaption>A 44-second tour with narration. The voice is synthetic, made with ElevenLabs. The captions are on by default.</figcaption>
+            </figure>
+            <details>
+              <summary>Transcript</summary>
+              <p>Air Traffic Control for Nova, from Swipht Group. It runs coding agents right in Nova: Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, and Grok. Write a flight plan, and take off. Each flight works in its own Git worktree, and you follow it in a live transcript. When it lands, review the diff, write a comment right in it, and send it back to the same agent session. Race several agents, or several sessions of one, and let another agent judge the results. Then merge the winner. It needs Nova 11 or later, and at least one agent CLI. Find Air Traffic Control in the Nova Extension Library.</p>
+            </details>
+            <h2 class="section-label">Surfaces</h2>
+            <div class="group">
+              <a class="row external" href="https://extensions.panic.com/extensions/com.swiphtgroup/com.swiphtgroup.AirTrafficControlATC/">
+                <span>
+                  <span class="row-title">Nova</span>
+                  <span class="row-detail">Nova 11 or later on macOS. Install it from the Extension Library.</span>
+                </span>
+                <span class="chevron" aria-hidden="true"></span>
+              </a>
+              <div class="row">
+                <span>
+                  <span class="row-title">Git</span>
+                  <span class="row-detail">Required. Flights work in Git worktrees, and merges and discards go through Git.</span>
+                </span>
+              </div>
+              <div class="row">
+                <span>
+                  <span class="row-title">Agent CLIs</span>
+                  <span class="row-detail">At least one, installed and signed in: Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, or Grok. The extension runs your installed command-line tools and includes none of their code.</span>
+                </span>
+              </div>
+            </div>
+            <h2 class="section-label">Terms</h2>
+            <div class="group">
+              <div class="row">
+                <span>
+                  <span class="row-title">No public permission</span>
+                  <span class="row-detail">The published license does not allow use, copying, or sharing. Written authorization from the author is required.</span>
+                </span>
+              </div>
+              <a class="row external" href="https://github.com/JohnThre/AirTrafficControl.novaextension/blob/main/LICENSE">
+                <span>
+                  <span class="row-title">Not free software</span>
+                  <span class="row-detail">Proprietary. The license grants no other rights. The agents are the products and trademarks of their respective owners.</span>
+                </span>
+                <span class="chevron" aria-hidden="true"></span>
+              </a>
+            </div>
+            <h2 class="section-label">Use</h2>
+            <div class="group">
+              <div class="row">
+                <span>
+                  <span class="row-title">Sidebar</span>
+                  <span class="row-detail">Air Traffic Control, with Flights and the Hangar. A Flight Plan file starts each flight.</span>
+                </span>
+              </div>
+              <a class="row external" href="https://github.com/JohnThre/AirTrafficControl.novaextension">
+                <span>
+                  <span class="row-title">Source</span>
+                  <span class="row-detail">github.com/JohnThre/AirTrafficControl.novaextension</span>
+                </span>
+                <span class="chevron" aria-hidden="true"></span>
+              </a>
+            </div>
+          </div>
+        </main>
+        <footer class="colophon">
+          <p>
+            <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
+              <span itemprop="name">Pengfan Chang</span>
+              <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
+                (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+              </span>
+            </span>
+          </p>
+          <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
+          <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
+          <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

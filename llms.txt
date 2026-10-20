@@ -19,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # freew.org
 
-> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). The catalog lists Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. RockyBack, Pascal, COBOL, and VB.NET are proprietary, and their published licenses grant no permission to use them.
+> freew.org presents apps and repositories you can use without paying, by Pengfan Chang (Swipht Group). The catalog lists Air Traffic Control (ATC), Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. RockyBack, Pascal, COBOL, VB.NET, and Air Traffic Control (ATC) are proprietary, and their published licenses grant no permission to use them.
 
 swiphtgroup.com is the main Swipht Group site: https://swiphtgroup.com/
 clambercloud.com is the related Clamber site: https://clambercloud.com/
@@ -30,6 +30,7 @@ The catalog is also published as XML: https://freew.org/site.xml
 - [Home](https://freew.org/index.html.md): Canonical page: https://freew.org/
 - [Pricing](https://freew.org/pricing/index.html.md): Canonical page: https://freew.org/pricing/
 - [Donate](https://freew.org/donate/index.html.md): Canonical page: https://freew.org/donate/
+- [Air Traffic Control (ATC)](https://freew.org/atc/index.html.md): runs and coordinates coding agents from the Nova editor: Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, and Grok. Each flight works in its own Git worktree, with a live transcript, diff review with inline comments, per-turn checkpoints, races with an AI judge, hand-offs between agents, and merge or pull request. The published license grants no permission to use it. Proprietary, and not free software. Source: https://github.com/JohnThre/AirTrafficControl.novaextension. License: https://github.com/JohnThre/AirTrafficControl.novaextension/blob/main/LICENSE. Canonical page: https://freew.org/atc/
 - [Amber Phosphor](https://freew.org/amberphosphor/index.html.md): a terminal theme for Apple Terminal and iTerm2. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/AmberPhosphor-theme. Canonical page: https://freew.org/amberphosphor/
 - [COBOL](https://freew.org/cobol/index.html.md): COBOL support for the Nova editor in fixed and free format, with embedded SQL, symbols, copybook-aware completions and navigation, record layouts, clips, format tools, and GnuCOBOL build, run, debugging, and diagnostics. The published license grants no permission to use it. Proprietary, and not free software. Source: https://github.com/JohnThre/COBOL.novaextension. License: https://github.com/JohnThre/COBOL.novaextension/blob/main/LICENSE. Canonical page: https://freew.org/cobol/
 - [CTMU](https://freew.org/ctmu/index.html.md): a command-line tool for macOS. Free of charge, and free software under the GNU General Public License, version 3. Source: https://github.com/JohnThre/CTMU-for-macOS. Canonical page: https://freew.org/ctmu/
@@ -52,7 +53,7 @@ The catalog is also published as XML: https://freew.org/site.xml
 - Ko-fi: https://ko-fi.com/jpfchang
 - IssueHunt: https://oss.issuehunt.io/u/johnthre
 
-Donations are optional. They do not grant a license, and they do not grant permission to use RockyBack, Pascal, COBOL, or VB.NET.
+Donations are optional. They do not grant a license, and they do not grant permission to use RockyBack, Pascal, COBOL, VB.NET, or Air Traffic Control (ATC).
 
 ## License
 
