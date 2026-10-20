@@ -1,0 +1,239 @@
+<!--
+freew.org presents apps and repositories you can use without paying.
+Copyright (C) 2026 Pengfan Chang
+Contact: https://swiphtgroup.com/
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>NovaCEE Offline — freew.org</title>
+    <meta name="description" content="NovaCEE Offline brings API docsets, a full-text search index, and toolchains into the Nova editor on Macs without a network connection. Each payload is checked against its SHA-256 hash before it installs. Its published license grants no permission to use it, and it is not free software.">
+    <meta name="author" content="Pengfan Chang">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <link rel="canonical" href="https://freew.org/novacee/">
+    <link rel="author" href="https://swiphtgroup.com/">
+    <link rel="alternate" hreflang="en" href="https://freew.org/novacee/">
+    <link rel="alternate" hreflang="x-default" href="https://freew.org/novacee/">
+    <link rel="icon" href="/favicon.svg?v=2026-10-open-stroke-1" type="image/svg+xml">
+    <link rel="icon" href="/favicon-32x32.png?v=2026-10-open-stroke-1" type="image/png" sizes="32x32">
+    <link rel="icon" href="/favicon-16x16.png?v=2026-10-open-stroke-1" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2026-10-open-stroke-1" sizes="180x180">
+    <link rel="manifest" href="/site.webmanifest?v=2026-10-open-stroke-1">
+    <meta name="apple-mobile-web-app-title" content="freew.org">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="freew.org">
+    <meta property="og:title" content="NovaCEE Offline — freew.org">
+    <meta property="og:description" content="Offline docs and developer tools in the Nova editor, for Macs without a network connection. Its published license grants no permission to use it. Not free software.">
+    <meta property="og:url" content="https://freew.org/novacee/">
+    <meta property="og:image" content="https://freew.org/novacee/demo.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="1010">
+    <meta property="og:image:alt" content="Search Offline Docs in Nova, with 12 matches for Builder from the Go docset">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NovaCEE Offline — freew.org">
+    <meta name="twitter:description" content="Offline docs and developer tools in the Nova editor, for Macs without a network connection. Its published license grants no permission to use it. Not free software.">
+    <meta name="twitter:image" content="https://freew.org/novacee/demo.jpg">
+    <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html">
+    <link rel="describedby" href="https://freew.org/llms.txt">
+    <link rel="alternate" type="text/markdown" href="https://freew.org/novacee/index.html.md">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://freew.org/#website",
+          "name": "freew.org",
+          "url": "https://freew.org/",
+          "publisher": { "@id": "https://swiphtgroup.com/#organization" },
+          "license": "https://www.gnu.org/licenses/agpl-3.0.html"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://freew.org/#pengfan-chang",
+          "name": "Pengfan Chang",
+          "affiliation": { "@id": "https://swiphtgroup.com/#organization" }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://swiphtgroup.com/#organization",
+          "name": "Swipht Group",
+          "url": "https://swiphtgroup.com/"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://freew.org/novacee/#webpage",
+          "url": "https://freew.org/novacee/",
+          "name": "NovaCEE Offline",
+          "description": "Offline docs and developer tools in the Nova editor, for Macs without a network connection.",
+          "isPartOf": { "@id": "https://freew.org/#website" },
+          "relatedLink": "https://clambercloud.com/",
+          "mainEntity": { "@id": "https://freew.org/novacee/#work" }
+        },
+        {
+          "@type": "SoftwareSourceCode",
+          "@id": "https://freew.org/novacee/#work",
+          "name": "NovaCEE Offline",
+          "description": "Searches Dash-format docsets in Nova without a network connection, installs docsets, a search index, and toolchains only after their SHA-256 hashes match a manifest, and runs those toolchains, with Library Health and Disk Usage.",
+          "programmingLanguage": "JavaScript",
+          "author": { "@id": "https://freew.org/#pengfan-chang" },
+          "isAccessibleForFree": false,
+          "isPartOf": { "@id": "https://freew.org/#website" }
+        }
+      ]
+    }
+    </script>
+    <link rel="stylesheet" href="/css/site.css">
+  </head>
+  <body>
+    <a class="skip" href="#content">Skip to content</a>
+    <div class="app">
+      <header class="sidebar">
+        <p class="wordmark" itemscope itemtype="https://schema.org/WebSite" itemid="https://freew.org/#website">
+          <a itemprop="url" href="https://freew.org/"><span itemprop="name">freew.org</span></a>
+          <link itemprop="publisher" href="https://swiphtgroup.com/#organization">
+        </p>
+        <nav class="side-nav" aria-label="Site">
+          <a href="/">Home</a>
+          <a href="/pricing/">Pricing</a>
+          <a href="/donate/">Donate</a>
+        </nav>
+        <nav class="side-nav" aria-label="Related sites">
+          <a class="external" href="https://swiphtgroup.com/">Swipht Group</a>
+          <a class="external" href="https://clambercloud.com/">Clamber</a>
+        </nav>
+      </header>
+      <div class="sheet">
+        <main id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/novacee/#webpage">
+          <meta itemprop="url" content="https://freew.org/novacee/">
+          <link itemprop="isPartOf" href="https://freew.org/#website">
+          <link itemprop="relatedLink" href="https://clambercloud.com/">
+          <h1 itemprop="name">NovaCEE Offline</h1>
+          <p class="lede" itemprop="description">Offline docs and developer tools in the Nova editor, for Macs without a network connection.</p>
+          <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/novacee/#work">
+            <meta itemprop="name" content="NovaCEE Offline">
+            <meta itemprop="description" content="Searches Dash-format docsets in Nova without a network connection, installs docsets, a search index, and toolchains only after their SHA-256 hashes match a manifest, and runs those toolchains, with Library Health and Disk Usage.">
+            <meta itemprop="programmingLanguage" content="JavaScript">
+            <p class="copy">It is built for Macs that never reach the internet. You copy payloads onto the machine ahead of time: docsets, a full-text search index, and toolchains. Each payload is checked against its SHA-256 hash in a manifest before it installs, and every path in an archive is checked before it unpacks. One search, ⌘⇧D, covers every installed docset. It uses the search index when it is installed and scans each docset otherwise. Results are ranked, a type: filter keeps one kind of entry, and Look Up Symbol searches for the word under the cursor in the docsets for the document's language. You can search one docset, reinstall, update, or uninstall a payload, see how much disk each docset uses, and check the library's health: the manifest, every hash, what is not installed yet, and free space. Run Tool runs an installed toolchain with new arguments, the last arguments, or a saved preset, and checks the tool's hash before every run. The extension makes no network requests.</p>
+            <figure class="shot">
+              <img src="/novacee/search.jpg" width="1600" height="1262" alt="Search Offline Docs in Nova, with 12 matches for Builder from the Go docset, and the Offline Library sidebar listing five docsets, a sqlite tool, and the verification actions" loading="lazy">
+              <figcaption>One search across every installed docset.</figcaption>
+            </figure>
+            <figure class="shot">
+              <img src="/novacee/doc.jpg" width="1600" height="1262" alt="The strings package page from the Go docset in a Nova preview tab, opened from a search result" loading="lazy">
+              <figcaption>A Go docset page, read in Nova without a network connection.</figcaption>
+            </figure>
+            <figure class="shot">
+              <img src="/novacee/health.jpg" width="1600" height="1262" alt="The message Library healthy in Nova, with Last check: healthy in the Offline Library sidebar" loading="lazy">
+              <figcaption>Library Health, with the last result in the sidebar.</figcaption>
+            </figure>
+            <figure class="shot">
+              <img src="/novacee/tool.jpg" width="1600" height="1262" alt="The Run sqlite palette in Nova, with Type new arguments, Run again with the last arguments, and Save last arguments as a preset" loading="lazy">
+              <figcaption>Run Tool, with the last arguments and saved presets.</figcaption>
+            </figure>
+            <figure class="shot">
+              <video controls preload="none" playsinline poster="/novacee/demo.jpg" width="1280" height="1010">
+                <source src="/novacee/demo.mp4" type="video/mp4">
+                <track kind="captions" src="/novacee/demo.vtt" srclang="en" label="English" default>
+              </video>
+              <figcaption>A 42-second tour with narration. The voice is synthetic, made with ElevenLabs. The captions are on by default.</figcaption>
+            </figure>
+            <details>
+              <summary>Transcript</summary>
+              <p>NovaCEE Offline for Nova, from Swipht Group. It brings API docs and developer tools into Nova, on Macs that never go online. Copy the payloads onto the machine ahead of time. Each one is checked against its SHA-256 hash before it installs. Search every installed docset from one palette, and read the page right in Nova. Library Health checks the manifest, the hashes, and the free space. Run the tools you brought along, again with the last arguments or a saved preset, and see how much disk each docset uses. It makes no network requests. Find NovaCEE Offline in the Nova Extension Library.</p>
+            </details>
+            <h2 class="section-label">Surfaces</h2>
+            <div class="group">
+              <a class="row external" href="https://extensions.panic.com/extensions/com.swiphtgroup/com.swiphtgroup.OfflineMVP/">
+                <span>
+                  <span class="row-title">Nova</span>
+                  <span class="row-detail">Nova on macOS. Install it from the Extension Library.</span>
+                </span>
+                <span class="chevron" aria-hidden="true"></span>
+              </a>
+              <div class="row">
+                <span>
+                  <span class="row-title">Payloads</span>
+                  <span class="row-detail">Copied onto the machine ahead of time, with a manifest of SHA-256 hashes. Docsets use the Dash format with a searchIndex table. Each docset and tool keeps its own license.</span>
+                </span>
+              </div>
+              <div class="row">
+                <span>
+                  <span class="row-title">Network</span>
+                  <span class="row-detail">None. The extension makes no network requests.</span>
+                </span>
+              </div>
+            </div>
+            <h2 class="section-label">Terms</h2>
+            <div class="group">
+              <div class="row">
+                <span>
+                  <span class="row-title">No public permission</span>
+                  <span class="row-detail">The published license does not allow use, copying, or sharing. Written authorization from the author is required.</span>
+                </span>
+              </div>
+              <div class="row">
+                <span>
+                  <span class="row-title">Not free software</span>
+                  <span class="row-detail">Proprietary. The license grants no other rights. Docsets and tools you install keep their own licenses.</span>
+                </span>
+              </div>
+            </div>
+            <h2 class="section-label">Use</h2>
+            <div class="group">
+              <div class="row">
+                <span>
+                  <span class="row-title">Sidebar</span>
+                  <span class="row-detail">Offline Library, with Docsets, Tools, and Verification.</span>
+                </span>
+              </div>
+              <div class="row">
+                <span>
+                  <span class="row-title">Search</span>
+                  <span class="row-detail">Editor › Search Offline Docs, ⌘⇧D. Look Up Symbol, ⌃⇧D.</span>
+                </span>
+              </div>
+              <div class="row">
+                <span>
+                  <span class="row-title">Library folder</span>
+                  <span class="row-detail">~/Library/Application Support/NovaCEE Offline by default. Set Offline Library Folder in the extension preferences.</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer class="colophon">
+          <p>
+            <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
+              <span itemprop="name">Pengfan Chang</span>
+              <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
+                (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+              </span>
+            </span>
+          </p>
+          <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
+          <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
+          <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

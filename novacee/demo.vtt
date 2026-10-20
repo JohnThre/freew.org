@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00.000 --> 00:03.560
+NovaCEE Offline for Nova, from Swipht Group.
+
+00:04.250 --> 00:09.370
+It brings API docs and developer tools into Nova, on Macs that never go online.
+
+00:09.990 --> 00:12.340
+Copy the payloads onto the machine ahead of time.
+
+00:12.860 --> 00:17.210
+Each one is checked against its SHA-256 hash before it installs.
+
+00:17.820 --> 00:22.120
+Search every installed docset from one palette, and read the page right in Nova.
+
+00:22.710 --> 00:26.300
+Library Health checks the manifest, the hashes, and the free space.
+
+00:26.820 --> 00:33.660
+Run the tools you brought along, again with the last arguments or a saved preset, and see how much disk each docset uses.
+
+00:34.120 --> 00:35.840
+It makes no network requests.
+
+00:36.440 --> 00:40.160
+Find NovaCEE Offline in the Nova Extension Library.

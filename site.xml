@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 <site xmlns="https://freew.org/ns/site">
   <name>freew.org</name>
   <url>https://freew.org/</url>
-  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Air Traffic Control (ATC), Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. RockyBack, Pascal, COBOL, VB.NET, and Air Traffic Control (ATC) are proprietary, and their published licenses grant no permission to use them.</description>
+  <description>A presentation of apps and repositories you can use without paying, including free software. The catalog lists Air Traffic Control (ATC), Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, NovaCEE Offline, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. RockyBack, Pascal, COBOL, VB.NET, Air Traffic Control (ATC), and NovaCEE Offline are proprietary, and their published licenses grant no permission to use them.</description>
   <author>
     <name>Pengfan Chang</name>
     <organization url="https://swiphtgroup.com/">Swipht Group</organization>
@@ -78,6 +78,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <charge>free</charge>
       <freedom license="GPL-3.0-or-later">free-software</freedom>
       <summary>IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2.</summary>
+    </work>
+    <work id="novacee">
+      <name>NovaCEE Offline</name>
+      <url>https://freew.org/novacee/</url>
+      <charge>no-public-permission</charge>
+      <freedom license="proprietary">not-free-software</freedom>
+      <summary>Offline docs and developer tools in the Nova editor, for Macs without a network connection, with SHA-256 checked payloads, docset search, toolchains, and no network requests.</summary>
     </work>
     <work id="p1pw">
       <name>P1PW</name>
