@@ -1,5 +1,5 @@
 <!--
-freew.org presents apps and repositories you can use without paying.
+freew.org lists apps and repositories and states the terms of each.
 Copyright (C) 2026 Pengfan Chang
 Contact: https://swiphtgroup.com/
 
@@ -21,16 +21,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>VB.NET — freew.org</title>
-    <meta name="description" content="VB.NET adds Visual Basic .NET support to the Nova editor, with syntax, symbols, completions, clips, formatting, and .NET build, run, watch, test, publish, NuGet packages, project references, and diagnostics. Its published license grants no permission to use it, and it is not free software.">
+    <title>VB.NET — Nova extension — freew.org</title>
+    <meta name="description" content="Visual Basic .NET support for the Nova editor, with .NET SDK build. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta name="author" content="Pengfan Chang">
     <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     <link rel="canonical" href="https://freew.org/vbnet/">
     <link rel="author" href="https://swiphtgroup.com/">
-    <link rel="alternate" hreflang="en" href="https://freew.org/vbnet/">
-    <link rel="alternate" hreflang="x-default" href="https://freew.org/vbnet/">
     <link rel="icon" href="/favicon.svg?v=2026-10-open-stroke-1" type="image/svg+xml">
     <link rel="icon" href="/favicon-32x32.png?v=2026-10-open-stroke-1" type="image/png" sizes="32x32">
     <link rel="icon" href="/favicon-16x16.png?v=2026-10-open-stroke-1" type="image/png" sizes="16x16">
@@ -39,8 +37,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="apple-mobile-web-app-title" content="freew.org">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="freew.org">
-    <meta property="og:title" content="VB.NET — freew.org">
-    <meta property="og:description" content="Visual Basic .NET support for the Nova editor, with .NET SDK build, run, test, and diagnostics. Its published license grants no permission to use it. Not free software.">
+    <meta property="og:title" content="VB.NET — Nova extension — freew.org">
+    <meta property="og:description" content="Visual Basic .NET support for the Nova editor, with .NET SDK build. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta property="og:url" content="https://freew.org/vbnet/">
     <meta property="og:image" content="https://freew.org/vbnet/highlight.jpg">
     <meta property="og:image:width" content="1600">
@@ -48,10 +46,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta property="og:image:alt" content="Visual Basic .NET source code highlighted in Nova, with the symbol list open">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="VB.NET — freew.org">
-    <meta name="twitter:description" content="Visual Basic .NET support for the Nova editor, with .NET SDK build, run, test, and diagnostics. Its published license grants no permission to use it. Not free software.">
+    <meta name="twitter:title" content="VB.NET — Nova extension — freew.org">
+    <meta name="twitter:description" content="Visual Basic .NET support for the Nova editor, with .NET SDK build. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta name="twitter:image" content="https://freew.org/vbnet/highlight.jpg">
-    <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html">
+    <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html" title="License of this page">
     <link rel="describedby" href="https://freew.org/llms.txt">
     <link rel="alternate" type="text/markdown" href="https://freew.org/vbnet/index.html.md">
     <script type="application/ld+json">
@@ -86,7 +84,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           "description": "Visual Basic .NET support for the Nova editor.",
           "isPartOf": { "@id": "https://freew.org/#website" },
           "relatedLink": "https://clambercloud.com/",
-          "mainEntity": { "@id": "https://freew.org/vbnet/#work" }
+          "mainEntity": { "@id": "https://freew.org/vbnet/#work" },
+          "breadcrumb": { "@id": "https://freew.org/vbnet/#breadcrumb" }
         },
         {
           "@type": "SoftwareSourceCode",
@@ -99,126 +98,146 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           "author": { "@id": "https://freew.org/#pengfan-chang" },
           "isAccessibleForFree": false,
           "isPartOf": { "@id": "https://freew.org/#website" }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://freew.org/vbnet/#breadcrumb",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Catalog", "item": "https://freew.org/" },
+            { "@type": "ListItem", "position": 2, "name": "VB.NET", "item": "https://freew.org/vbnet/" }
+          ]
         }
       ]
     }
     </script>
-    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="/css/site.css?v=2026-11-catalog-1">
   </head>
   <body>
     <a class="skip" href="#content">Skip to content</a>
-    <div class="app">
-      <header class="sidebar">
+    <header class="topbar">
+      <div class="topbar-inner">
         <p class="wordmark" itemscope itemtype="https://schema.org/WebSite" itemid="https://freew.org/#website">
           <a itemprop="url" href="https://freew.org/"><span itemprop="name">freew.org</span></a>
           <link itemprop="publisher" href="https://swiphtgroup.com/#organization">
         </p>
-        <nav class="side-nav" aria-label="Site">
-          <a href="/">Home</a>
+        <nav class="site-nav" aria-label="Site">
+          <a href="/" aria-current="true">Catalog</a>
           <a href="/pricing/">Pricing</a>
           <a href="/donate/">Donate</a>
         </nav>
-        <nav class="side-nav" aria-label="Related sites">
-          <a class="external" href="https://swiphtgroup.com/">Swipht Group</a>
-          <a class="external" href="https://clambercloud.com/">Clamber</a>
-        </nav>
-      </header>
-      <div class="sheet">
-        <main id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/vbnet/#webpage">
-          <meta itemprop="url" content="https://freew.org/vbnet/">
-          <link itemprop="isPartOf" href="https://freew.org/#website">
-          <link itemprop="relatedLink" href="https://clambercloud.com/">
-          <h1 itemprop="name">VB.NET</h1>
-          <p class="lede" itemprop="description">Visual Basic .NET support for the Nova editor.</p>
-          <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/vbnet/#work">
-            <meta itemprop="name" content="VB.NET">
-            <meta itemprop="description" content="Visual Basic .NET support for Nova, with .NET SDK build, run, test, publish, and diagnostics.">
-            <link itemprop="codeRepository" href="https://github.com/JohnThre/VB.NET.novaextension">
-            <meta itemprop="programmingLanguage" content="JavaScript">
-            <link itemprop="license" href="https://github.com/JohnThre/VB.NET.novaextension/blob/main/LICENSE">
-            <p class="copy">It highlights Visual Basic .NET and lists namespaces, types, and members in the symbol list. Completions include the names declared in the open file and in the other files of its project. Format runs dotnet format on the editor's text, and commands sort Imports, add the missing End statement of a block, and insert XML doc comments. Saving a file builds its project, once you allow checks for the folder, and marks errors in the editor. Tasks build, run, clean, test, and watch the project. Run Test at Cursor and Run Tests in File run only the tests you choose. Publish makes a portable or self-contained app. Commands add, update, and remove NuGet packages, add project references, and create projects from the Console App, Class Library, xUnit, MSTest, and NUnit templates.</p>
-            <figure class="shot">
-              <img src="/vbnet/highlight.jpg" width="1600" height="1262" alt="Visual Basic .NET source code highlighted in Nova, with the symbol list showing its types and their members" loading="lazy">
-              <figcaption>Highlighting and the symbol list.</figcaption>
-            </figure>
-            <figure class="shot">
-              <img src="/vbnet/tests.jpg" width="1600" height="1262" alt="An xUnit test class in Nova, with Run Test at Cursor reporting that both cases of the DividesNumbers theory passed" loading="lazy">
-              <figcaption>Run Test at Cursor in an xUnit project.</figcaption>
-            </figure>
-            <figure class="shot">
-              <img src="/vbnet/diagnostics.jpg" width="1600" height="1262" alt="Nova's Issues sidebar showing the Visual Basic compiler error 'Radus' is not declared after saving a VB.NET file" loading="lazy">
-              <figcaption>A compiler error after saving, listed in Nova's Issues sidebar.</figcaption>
-            </figure>
-            <h2 class="section-label">Surfaces</h2>
-            <div class="group">
-              <a class="row external" href="https://extensions.panic.com/extensions/com.swiphtgroup/com.swiphtgroup.VBNET/">
-                <span>
-                  <span class="row-title">Nova</span>
-                  <span class="row-detail">Nova 11 or later on macOS. Install it from the Extension Library.</span>
-                </span>
-                <span class="chevron" aria-hidden="true"></span>
-              </a>
-              <div class="row">
-                <span>
-                  <span class="row-title">.NET SDK</span>
-                  <span class="row-detail">Optional. Build, run, tests, publishing, formatting, packages, and save-time diagnostics use dotnet from /usr/local/share/dotnet, ~/.dotnet, Homebrew, or your PATH, or a path set in preferences.</span>
-                </span>
-              </div>
-              <div class="row">
-                <span>
-                  <span class="row-title">Language server</span>
-                  <span class="row-detail">Optional. Set an executable path in preferences. The extension does not download or bundle a server.</span>
-                </span>
-              </div>
-            </div>
-            <h2 class="section-label">Terms</h2>
-            <div class="group">
-              <div class="row">
-                <span>
-                  <span class="row-title">No public permission</span>
-                  <span class="row-detail">The published license does not allow use, copying, or sharing. Written authorization from the author is required.</span>
-                </span>
-              </div>
-              <a class="row external" href="https://github.com/JohnThre/VB.NET.novaextension/blob/main/LICENSE">
-                <span>
-                  <span class="row-title">Not free software</span>
-                  <span class="row-detail">Proprietary. The license grants no other rights. The bundled Tree-sitter VB.NET parser is MIT-licensed.</span>
-                </span>
-                <span class="chevron" aria-hidden="true"></span>
-              </a>
-            </div>
-            <h2 class="section-label">Use</h2>
-            <div class="group">
-              <div class="row">
-                <span>
-                  <span class="row-title">Files</span>
-                  <span class="row-detail">Visual Basic .NET files with the extension .vb.</span>
-                </span>
-              </div>
-              <a class="row external" href="https://github.com/JohnThre/VB.NET.novaextension">
-                <span>
-                  <span class="row-title">Source</span>
-                  <span class="row-detail">github.com/JohnThre/VB.NET.novaextension</span>
-                </span>
-                <span class="chevron" aria-hidden="true"></span>
-              </a>
-            </div>
-          </div>
-        </main>
-        <footer class="colophon">
-          <p>
-            <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
-              <span itemprop="name">Pengfan Chang</span>
-              <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
-                (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
-              </span>
-            </span>
-          </p>
-          <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
-          <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
-          <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
-        </footer>
       </div>
-    </div>
+    </header>
+<main class="page" id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/vbnet/#webpage">
+      <meta itemprop="url" content="https://freew.org/vbnet/">
+      <link itemprop="isPartOf" href="https://freew.org/#website">
+      <link itemprop="relatedLink" href="https://clambercloud.com/">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Catalog</a></li>
+          <li aria-current="page">VB.NET</li>
+        </ol>
+      </nav>
+      <header class="entry-head">
+        <h1 itemprop="name">VB.NET</h1>
+        <p class="entry-meta"><span>Nova extension</span> <span class="badge restricted">Proprietary · no permission to use</span></p>
+        <p class="lede" itemprop="description">Visual Basic .NET support for the Nova editor.</p>
+        <p class="actions">
+          <a class="button primary external" href="https://github.com/JohnThre/VB.NET.novaextension">Source</a>
+          <a class="button external" href="https://github.com/JohnThre/VB.NET.novaextension/blob/main/LICENSE">License</a>
+        </p>
+      </header>
+      <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/vbnet/#work">
+        <meta itemprop="name" content="VB.NET">
+        <meta itemprop="description" content="Visual Basic .NET support for Nova, with .NET SDK build, run, test, publish, and diagnostics.">
+        <link itemprop="codeRepository" href="https://github.com/JohnThre/VB.NET.novaextension">
+        <meta itemprop="programmingLanguage" content="JavaScript">
+        <link itemprop="license" href="https://github.com/JohnThre/VB.NET.novaextension/blob/main/LICENSE">
+        <p class="copy">It highlights Visual Basic .NET and lists namespaces, types, and members in the symbol list. Completions include the names declared in the open file and in the other files of its project. Format runs dotnet format on the editor's text, and commands sort Imports, add the missing End statement of a block, and insert XML doc comments. Saving a file builds its project, once you allow checks for the folder, and marks errors in the editor. Tasks build, run, clean, test, and watch the project. Run Test at Cursor and Run Tests in File run only the tests you choose. Publish makes a portable or self-contained app. Commands add, update, and remove NuGet packages, add project references, and create projects from the Console App, Class Library, xUnit, MSTest, and NUnit templates.</p>
+        <div class="gallery">
+          <figure class="shot">
+            <picture>
+              <source type="image/webp" srcset="/vbnet/highlight-640.webp 640w, /vbnet/highlight-1280.webp 1280w" sizes="(min-width: 1120px) 524px, (min-width: 920px) 50vw, 100vw">
+              <img src="/vbnet/highlight.jpg" width="1600" height="1262" alt="Visual Basic .NET source code highlighted in Nova, with the symbol list showing its types and their members" fetchpriority="high" decoding="async">
+            </picture>
+            <figcaption>Highlighting and the symbol list.</figcaption>
+          </figure>
+          <figure class="shot">
+            <picture>
+              <source type="image/webp" srcset="/vbnet/tests-640.webp 640w, /vbnet/tests-1280.webp 1280w" sizes="(min-width: 1120px) 524px, (min-width: 920px) 50vw, 100vw">
+              <img src="/vbnet/tests.jpg" width="1600" height="1262" alt="An xUnit test class in Nova, with Run Test at Cursor reporting that both cases of the DividesNumbers theory passed" loading="lazy" decoding="async">
+            </picture>
+            <figcaption>Run Test at Cursor in an xUnit project.</figcaption>
+          </figure>
+          <figure class="shot">
+            <picture>
+              <source type="image/webp" srcset="/vbnet/diagnostics-640.webp 640w, /vbnet/diagnostics-1280.webp 1280w" sizes="(min-width: 1120px) 524px, (min-width: 920px) 50vw, 100vw">
+              <img src="/vbnet/diagnostics.jpg" width="1600" height="1262" alt="Nova's Issues sidebar showing the Visual Basic compiler error 'Radus' is not declared after saving a VB.NET file" loading="lazy" decoding="async">
+            </picture>
+            <figcaption>A compiler error after saving, listed in Nova's Issues sidebar.</figcaption>
+          </figure>
+        </div>
+        <div class="facts">
+          <section>
+            <h2>Surfaces</h2>
+            <dl>
+              <div>
+                <dt><a class="external" href="https://extensions.panic.com/extensions/com.swiphtgroup/com.swiphtgroup.VBNET/">Nova</a></dt>
+                <dd>Nova 11 or later on macOS. Install it from the Extension Library.</dd>
+              </div>
+              <div>
+                <dt>.NET SDK</dt>
+                <dd>Optional. Build, run, tests, publishing, formatting, packages, and save-time diagnostics use dotnet from /usr/local/share/dotnet, ~/.dotnet, Homebrew, or your PATH, or a path set in preferences.</dd>
+              </div>
+              <div>
+                <dt>Language server</dt>
+                <dd>Optional. Set an executable path in preferences. The extension does not download or bundle a server.</dd>
+              </div>
+            </dl>
+          </section>
+          <section>
+            <h2>Terms</h2>
+            <dl>
+              <div>
+                <dt>No public permission</dt>
+                <dd>The published license does not allow use, copying, or sharing. Written authorization from the author is required.</dd>
+              </div>
+              <div>
+                <dt><a class="external" href="https://github.com/JohnThre/VB.NET.novaextension/blob/main/LICENSE">Not free software</a></dt>
+                <dd>Proprietary. The license grants no other rights. The bundled Tree-sitter VB.NET parser is MIT-licensed.</dd>
+              </div>
+            </dl>
+          </section>
+          <section>
+            <h2>Use</h2>
+            <dl>
+              <div>
+                <dt>Files</dt>
+                <dd>Visual Basic .NET files with the extension .vb.</dd>
+              </div>
+              <div>
+                <dt><a class="external" href="https://github.com/JohnThre/VB.NET.novaextension">Source</a></dt>
+                <dd>github.com/JohnThre/VB.NET.novaextension</dd>
+              </div>
+            </dl>
+          </section>
+        </div>
+      </div>
+      <p class="back"><a href="/">Back to the catalog</a></p>
+    </main>
+    <footer class="colophon">
+      <div class="page">
+        <p>
+          <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
+            <span itemprop="name">Pengfan Chang</span>
+            <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
+              (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+            </span>
+          </span>
+        </p>
+        <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
+        <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
+        <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
+      </div>
+    </footer>
   </body>
 </html>

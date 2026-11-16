@@ -1,5 +1,5 @@
 <!--
-freew.org presents apps and repositories you can use without paying.
+freew.org lists apps and repositories and states the terms of each.
 Copyright (C) 2026 Pengfan Chang
 Contact: https://swiphtgroup.com/
 
@@ -21,16 +21,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Pascal — freew.org</title>
-    <meta name="description" content="Pascal adds Pascal and Object Pascal support to the Nova editor, with syntax, symbols, completions, clips, ptop formatting, and Free Pascal build, run, and diagnostics. Its published license grants no permission to use it, and it is not free software.">
+    <title>Pascal — Nova extension — freew.org</title>
+    <meta name="description" content="Pascal and Object Pascal support for the Nova editor. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta name="author" content="Pengfan Chang">
     <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     <link rel="canonical" href="https://freew.org/pascal/">
     <link rel="author" href="https://swiphtgroup.com/">
-    <link rel="alternate" hreflang="en" href="https://freew.org/pascal/">
-    <link rel="alternate" hreflang="x-default" href="https://freew.org/pascal/">
     <link rel="icon" href="/favicon.svg?v=2026-10-open-stroke-1" type="image/svg+xml">
     <link rel="icon" href="/favicon-32x32.png?v=2026-10-open-stroke-1" type="image/png" sizes="32x32">
     <link rel="icon" href="/favicon-16x16.png?v=2026-10-open-stroke-1" type="image/png" sizes="16x16">
@@ -39,8 +37,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="apple-mobile-web-app-title" content="freew.org">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="freew.org">
-    <meta property="og:title" content="Pascal — freew.org">
-    <meta property="og:description" content="Pascal and Object Pascal support for the Nova editor, with Free Pascal build, run, and diagnostics. Its published license grants no permission to use it. Not free software.">
+    <meta property="og:title" content="Pascal — Nova extension — freew.org">
+    <meta property="og:description" content="Pascal and Object Pascal support for the Nova editor. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta property="og:url" content="https://freew.org/pascal/">
     <meta property="og:image" content="https://freew.org/pascal/demo.jpg">
     <meta property="og:image:width" content="1280">
@@ -48,10 +46,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta property="og:image:alt" content="Pascal source code highlighted in Nova, with the symbol list open">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pascal — freew.org">
-    <meta name="twitter:description" content="Pascal and Object Pascal support for the Nova editor, with Free Pascal build, run, and diagnostics. Its published license grants no permission to use it. Not free software.">
+    <meta name="twitter:title" content="Pascal — Nova extension — freew.org">
+    <meta name="twitter:description" content="Pascal and Object Pascal support for the Nova editor. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta name="twitter:image" content="https://freew.org/pascal/demo.jpg">
-    <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html">
+    <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html" title="License of this page">
     <link rel="describedby" href="https://freew.org/llms.txt">
     <link rel="alternate" type="text/markdown" href="https://freew.org/pascal/index.html.md">
     <script type="application/ld+json">
@@ -86,7 +84,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           "description": "Pascal and Object Pascal support for the Nova editor.",
           "isPartOf": { "@id": "https://freew.org/#website" },
           "relatedLink": "https://clambercloud.com/",
-          "mainEntity": { "@id": "https://freew.org/pascal/#work" }
+          "mainEntity": { "@id": "https://freew.org/pascal/#work" },
+          "breadcrumb": { "@id": "https://freew.org/pascal/#breadcrumb" }
         },
         {
           "@type": "SoftwareSourceCode",
@@ -97,134 +96,153 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           "programmingLanguage": "JavaScript",
           "license": "https://github.com/JohnThre/Pascal.novaextension/blob/main/LICENSE",
           "author": { "@id": "https://freew.org/#pengfan-chang" },
+          "isAccessibleForFree": false,
           "isPartOf": { "@id": "https://freew.org/#website" }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://freew.org/pascal/#breadcrumb",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Catalog", "item": "https://freew.org/" },
+            { "@type": "ListItem", "position": 2, "name": "Pascal", "item": "https://freew.org/pascal/" }
+          ]
         }
       ]
     }
     </script>
-    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="/css/site.css?v=2026-11-catalog-1">
   </head>
   <body>
     <a class="skip" href="#content">Skip to content</a>
-    <div class="app">
-      <header class="sidebar">
+    <header class="topbar">
+      <div class="topbar-inner">
         <p class="wordmark" itemscope itemtype="https://schema.org/WebSite" itemid="https://freew.org/#website">
           <a itemprop="url" href="https://freew.org/"><span itemprop="name">freew.org</span></a>
           <link itemprop="publisher" href="https://swiphtgroup.com/#organization">
         </p>
-        <nav class="side-nav" aria-label="Site">
-          <a href="/">Home</a>
+        <nav class="site-nav" aria-label="Site">
+          <a href="/" aria-current="true">Catalog</a>
           <a href="/pricing/">Pricing</a>
           <a href="/donate/">Donate</a>
         </nav>
-        <nav class="side-nav" aria-label="Related sites">
-          <a class="external" href="https://swiphtgroup.com/">Swipht Group</a>
-          <a class="external" href="https://clambercloud.com/">Clamber</a>
-        </nav>
-      </header>
-      <div class="sheet">
-        <main id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/pascal/#webpage">
-          <meta itemprop="url" content="https://freew.org/pascal/">
-          <link itemprop="isPartOf" href="https://freew.org/#website">
-          <link itemprop="relatedLink" href="https://clambercloud.com/">
-          <h1 itemprop="name">Pascal</h1>
-          <p class="lede" itemprop="description">Pascal and Object Pascal support for the Nova editor.</p>
-          <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/pascal/#work">
-            <meta itemprop="name" content="Pascal">
-            <meta itemprop="description" content="Pascal and Object Pascal support for Nova, with Free Pascal build, run, and diagnostics.">
-            <link itemprop="codeRepository" href="https://github.com/JohnThre/Pascal.novaextension">
-            <meta itemprop="programmingLanguage" content="JavaScript">
-            <link itemprop="license" href="https://github.com/JohnThre/Pascal.novaextension/blob/main/LICENSE">
-            <p class="copy">It highlights Free Pascal and Delphi source, lists units, types, and routines in the symbol list, and completes keywords, runtime names, and the names declared in the open file. Saving a file runs the Free Pascal compiler and marks errors in the editor. A Free Pascal task builds, runs, and cleans the program, and Format uses ptop.</p>
-            <figure class="shot">
-              <img src="/pascal/highlight.jpg" width="1600" height="1262" alt="Pascal source code highlighted in Nova, with the symbol list showing the TGreeter class and its Greet routine" loading="lazy">
-              <figcaption>Highlighting and the symbol list.</figcaption>
-            </figure>
-            <figure class="shot">
-              <img src="/pascal/diagnostics.jpg" width="1600" height="1262" alt="Nova showing a compiler error, identifier not found, after saving a Pascal file" loading="lazy">
-              <figcaption>A compiler error after saving, listed in Nova's Issues sidebar.</figcaption>
-            </figure>
-            <figure class="shot">
-              <video controls preload="none" playsinline poster="/pascal/demo.jpg" width="1280" height="1010">
-                <source src="/pascal/demo.mp4" type="video/mp4">
-                <track kind="captions" src="/pascal/demo.vtt" srclang="en" label="English" default>
-              </video>
-              <figcaption>A 29-second tour with narration. The voice is synthetic, made with ElevenLabs. The captions are on by default.</figcaption>
-            </figure>
-            <details>
-              <summary>Transcript</summary>
-              <p>Pascal for Nova, from Swipht Group. Open a Pascal or Object Pascal file, and Nova highlights it, with a symbol list for your classes and routines. Save, and Free Pascal checks your code, so errors appear right in the editor. Build, run, and clean from the Free Pascal task. Format with ptop, and start new programs and units from clips. It needs Nova 11 or later. Find Pascal in the Nova Extension Library.</p>
-            </details>
-            <h2 class="section-label">Surfaces</h2>
-            <div class="group">
-              <a class="row external" href="https://extensions.panic.com/extensions/com.swiphtgroup/com.swiphtgroup.Pascal/">
-                <span>
-                  <span class="row-title">Nova</span>
-                  <span class="row-detail">Nova 11 or later on macOS. Install it from the Extension Library.</span>
-                </span>
-                <span class="chevron" aria-hidden="true"></span>
-              </a>
-              <div class="row">
-                <span>
-                  <span class="row-title">Free Pascal</span>
-                  <span class="row-detail">Optional. Build, run, clean, and save-time diagnostics use fpc on your PATH, or a compiler path set in preferences.</span>
-                </span>
-              </div>
-              <div class="row">
-                <span>
-                  <span class="row-title">Language server</span>
-                  <span class="row-detail">Optional. Set an executable path in preferences. The extension does not download or bundle a server.</span>
-                </span>
-              </div>
-            </div>
-            <h2 class="section-label">Terms</h2>
-            <div class="group">
-              <div class="row">
-                <span>
-                  <span class="row-title">No public permission</span>
-                  <span class="row-detail">The published license does not allow use, copying, or sharing. Written authorization from the author is required.</span>
-                </span>
-              </div>
-              <a class="row external" href="https://github.com/JohnThre/Pascal.novaextension/blob/main/LICENSE">
-                <span>
-                  <span class="row-title">Not free software</span>
-                  <span class="row-detail">Proprietary. The license grants no other rights. The bundled Tree-sitter Pascal parser is MIT-licensed.</span>
-                </span>
-                <span class="chevron" aria-hidden="true"></span>
-              </a>
-            </div>
-            <h2 class="section-label">Use</h2>
-            <div class="group">
-              <div class="row">
-                <span>
-                  <span class="row-title">Files</span>
-                  <span class="row-detail">Pascal files with the extensions .pas, .pp, .inc, .dpr, .lpr, and .dpk.</span>
-                </span>
-              </div>
-              <a class="row external" href="https://github.com/JohnThre/Pascal.novaextension">
-                <span>
-                  <span class="row-title">Source</span>
-                  <span class="row-detail">github.com/JohnThre/Pascal.novaextension</span>
-                </span>
-                <span class="chevron" aria-hidden="true"></span>
-              </a>
-            </div>
-          </div>
-        </main>
-        <footer class="colophon">
-          <p>
-            <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
-              <span itemprop="name">Pengfan Chang</span>
-              <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
-                (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
-              </span>
-            </span>
-          </p>
-          <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
-          <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
-          <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
-        </footer>
       </div>
-    </div>
+    </header>
+<main class="page" id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/pascal/#webpage">
+      <meta itemprop="url" content="https://freew.org/pascal/">
+      <link itemprop="isPartOf" href="https://freew.org/#website">
+      <link itemprop="relatedLink" href="https://clambercloud.com/">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Catalog</a></li>
+          <li aria-current="page">Pascal</li>
+        </ol>
+      </nav>
+      <header class="entry-head">
+        <h1 itemprop="name">Pascal</h1>
+        <p class="entry-meta"><span>Nova extension</span> <span class="badge restricted">Proprietary · no permission to use</span></p>
+        <p class="lede" itemprop="description">Pascal and Object Pascal support for the Nova editor.</p>
+        <p class="actions">
+          <a class="button primary external" href="https://github.com/JohnThre/Pascal.novaextension">Source</a>
+          <a class="button external" href="https://github.com/JohnThre/Pascal.novaextension/blob/main/LICENSE">License</a>
+        </p>
+      </header>
+      <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/pascal/#work">
+        <meta itemprop="name" content="Pascal">
+        <meta itemprop="description" content="Pascal and Object Pascal support for Nova, with Free Pascal build, run, and diagnostics.">
+        <link itemprop="codeRepository" href="https://github.com/JohnThre/Pascal.novaextension">
+        <meta itemprop="programmingLanguage" content="JavaScript">
+        <link itemprop="license" href="https://github.com/JohnThre/Pascal.novaextension/blob/main/LICENSE">
+        <p class="copy">It highlights Free Pascal and Delphi source, lists units, types, and routines in the symbol list, and completes keywords, runtime names, and the names declared in the open file. Saving a file runs the Free Pascal compiler and marks errors in the editor. A Free Pascal task builds, runs, and cleans the program, and Format uses ptop.</p>
+        <div class="gallery">
+          <figure class="shot">
+            <picture>
+              <source type="image/webp" srcset="/pascal/highlight-640.webp 640w, /pascal/highlight-1280.webp 1280w" sizes="(min-width: 1120px) 524px, (min-width: 920px) 50vw, 100vw">
+              <img src="/pascal/highlight.jpg" width="1600" height="1262" alt="Pascal source code highlighted in Nova, with the symbol list showing the TGreeter class and its Greet routine" fetchpriority="high" decoding="async">
+            </picture>
+            <figcaption>Highlighting and the symbol list.</figcaption>
+          </figure>
+          <figure class="shot">
+            <picture>
+              <source type="image/webp" srcset="/pascal/diagnostics-640.webp 640w, /pascal/diagnostics-1280.webp 1280w" sizes="(min-width: 1120px) 524px, (min-width: 920px) 50vw, 100vw">
+              <img src="/pascal/diagnostics.jpg" width="1600" height="1262" alt="Nova showing a compiler error, identifier not found, after saving a Pascal file" loading="lazy" decoding="async">
+            </picture>
+            <figcaption>A compiler error after saving, listed in Nova's Issues sidebar.</figcaption>
+          </figure>
+          <figure class="shot">
+            <video controls preload="none" playsinline aria-describedby="transcript" poster="/pascal/demo-1280.webp" width="1280" height="1010">
+              <source src="/pascal/demo.mp4" type="video/mp4">
+              <track kind="captions" src="/pascal/demo.vtt" srclang="en" label="English" default>
+              <a href="/pascal/demo.mp4">Download the video</a>
+            </video>
+            <figcaption>A 29-second tour with narration. The voice is synthetic, made with ElevenLabs. The captions are on by default.</figcaption>
+          </figure>
+        </div>
+        <details id="transcript">
+          <summary>Transcript</summary>
+          <p>Pascal for Nova, from Swipht Group. Open a Pascal or Object Pascal file, and Nova highlights it, with a symbol list for your classes and routines. Save, and Free Pascal checks your code, so errors appear right in the editor. Build, run, and clean from the Free Pascal task. Format with ptop, and start new programs and units from clips. It needs Nova 11 or later. Find Pascal in the Nova Extension Library.</p>
+        </details>
+        <div class="facts">
+          <section>
+            <h2>Surfaces</h2>
+            <dl>
+              <div>
+                <dt><a class="external" href="https://extensions.panic.com/extensions/com.swiphtgroup/com.swiphtgroup.Pascal/">Nova</a></dt>
+                <dd>Nova 11 or later on macOS. Install it from the Extension Library.</dd>
+              </div>
+              <div>
+                <dt>Free Pascal</dt>
+                <dd>Optional. Build, run, clean, and save-time diagnostics use fpc on your PATH, or a compiler path set in preferences.</dd>
+              </div>
+              <div>
+                <dt>Language server</dt>
+                <dd>Optional. Set an executable path in preferences. The extension does not download or bundle a server.</dd>
+              </div>
+            </dl>
+          </section>
+          <section>
+            <h2>Terms</h2>
+            <dl>
+              <div>
+                <dt>No public permission</dt>
+                <dd>The published license does not allow use, copying, or sharing. Written authorization from the author is required.</dd>
+              </div>
+              <div>
+                <dt><a class="external" href="https://github.com/JohnThre/Pascal.novaextension/blob/main/LICENSE">Not free software</a></dt>
+                <dd>Proprietary. The license grants no other rights. The bundled Tree-sitter Pascal parser is MIT-licensed.</dd>
+              </div>
+            </dl>
+          </section>
+          <section>
+            <h2>Use</h2>
+            <dl>
+              <div>
+                <dt>Files</dt>
+                <dd>Pascal files with the extensions .pas, .pp, .inc, .dpr, .lpr, and .dpk.</dd>
+              </div>
+              <div>
+                <dt><a class="external" href="https://github.com/JohnThre/Pascal.novaextension">Source</a></dt>
+                <dd>github.com/JohnThre/Pascal.novaextension</dd>
+              </div>
+            </dl>
+          </section>
+        </div>
+      </div>
+      <p class="back"><a href="/">Back to the catalog</a></p>
+    </main>
+    <footer class="colophon">
+      <div class="page">
+        <p>
+          <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
+            <span itemprop="name">Pengfan Chang</span>
+            <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
+              (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+            </span>
+          </span>
+        </p>
+        <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
+        <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
+        <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
+      </div>
+    </footer>
   </body>
 </html>

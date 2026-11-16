@@ -1,5 +1,5 @@
 <!--
-freew.org presents apps and repositories you can use without paying.
+freew.org lists apps and repositories and states the terms of each.
 Copyright (C) 2026 Pengfan Chang
 Contact: https://swiphtgroup.com/
 

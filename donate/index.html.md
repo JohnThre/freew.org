@@ -1,5 +1,5 @@
 <!--
-freew.org presents apps and repositories you can use without paying.
+freew.org lists apps and repositories and states the terms of each.
 Copyright (C) 2026 Pengfan Chang
 Contact: https://swiphtgroup.com/
 
@@ -31,7 +31,7 @@ Donations support the work listed on freew.org. They are optional.
 
 ## Terms
 
-- Donations buy nothing: They do not grant a license, and they do not grant permission to use RockyBack, Pascal, COBOL, VB.NET, Air Traffic Control (ATC), or NovaCEE Offline.
+- Donations buy nothing: They do not grant a license, and they do not grant permission to use Air Traffic Control (ATC), COBOL, NovaCEE Offline, Pascal, RockyBack, or VB.NET.
 
 [Pricing](https://freew.org/pricing/) lists what each work in the catalog allows.
 

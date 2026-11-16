@@ -1,5 +1,5 @@
 <!--
-freew.org presents apps and repositories you can use without paying.
+freew.org lists apps and repositories and states the terms of each.
 Copyright (C) 2026 Pengfan Chang
 Contact: https://swiphtgroup.com/
 
@@ -21,16 +21,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>iB-theme — freew.org</title>
-    <meta name="description" content="iB-theme is an IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2. It is free of charge, and it is free software under the GNU General Public License, version 3 or later.">
+    <title>iB-theme — editor and terminal theme — freew.org</title>
+    <meta name="description" content="iB-theme is an IBM Carbon theme for editors and terminals, including VS Code, Vim, and iTerm2. Free software under the GNU GPL, version 3 or later.">
     <meta name="author" content="Pengfan Chang">
     <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
     <link rel="canonical" href="https://freew.org/ibtheme/">
     <link rel="author" href="https://swiphtgroup.com/">
-    <link rel="alternate" hreflang="en" href="https://freew.org/ibtheme/">
-    <link rel="alternate" hreflang="x-default" href="https://freew.org/ibtheme/">
     <link rel="icon" href="/favicon.svg?v=2026-10-open-stroke-1" type="image/svg+xml">
     <link rel="icon" href="/favicon-32x32.png?v=2026-10-open-stroke-1" type="image/png" sizes="32x32">
     <link rel="icon" href="/favicon-16x16.png?v=2026-10-open-stroke-1" type="image/png" sizes="16x16">
@@ -39,19 +37,19 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="apple-mobile-web-app-title" content="freew.org">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="freew.org">
-    <meta property="og:title" content="iB-theme — freew.org">
-    <meta property="og:description" content="An IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2. Free of charge, and free software under the GNU General Public License, version 3 or later.">
+    <meta property="og:title" content="iB-theme — editor and terminal theme — freew.org">
+    <meta property="og:description" content="iB-theme is an IBM Carbon theme for editors and terminals, including VS Code, Vim, and iTerm2. Free software under the GNU GPL, version 3 or later.">
     <meta property="og:url" content="https://freew.org/ibtheme/">
     <meta property="og:image" content="https://freew.org/icons/freew/icon-512.png">
     <meta property="og:image:width" content="512">
     <meta property="og:image:height" content="512">
-    <meta property="og:image:alt" content="freew.org">
+    <meta property="og:image:alt" content="The freew.org icon">
     <meta property="og:locale" content="en_US">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="iB-theme — freew.org">
-    <meta name="twitter:description" content="An IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2. Free of charge, and free software under the GNU General Public License, version 3 or later.">
+    <meta name="twitter:title" content="iB-theme — editor and terminal theme — freew.org">
+    <meta name="twitter:description" content="iB-theme is an IBM Carbon theme for editors and terminals, including VS Code, Vim, and iTerm2. Free software under the GNU GPL, version 3 or later.">
     <meta name="twitter:image" content="https://freew.org/icons/freew/icon-512.png">
-    <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html">
+    <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html" title="License of this page">
     <link rel="describedby" href="https://freew.org/llms.txt">
     <link rel="alternate" type="text/markdown" href="https://freew.org/ibtheme/index.html.md">
     <script type="application/ld+json">
@@ -86,7 +84,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           "description": "An IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2.",
           "isPartOf": { "@id": "https://freew.org/#website" },
           "relatedLink": "https://clambercloud.com/",
-          "mainEntity": { "@id": "https://freew.org/ibtheme/#work" }
+          "mainEntity": { "@id": "https://freew.org/ibtheme/#work" },
+          "breadcrumb": { "@id": "https://freew.org/ibtheme/#breadcrumb" }
         },
         {
           "@type": "SoftwareSourceCode",
@@ -99,134 +98,141 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           "author": { "@id": "https://freew.org/#pengfan-chang" },
           "isAccessibleForFree": true,
           "isPartOf": { "@id": "https://freew.org/#website" }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://freew.org/ibtheme/#breadcrumb",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Catalog", "item": "https://freew.org/" },
+            { "@type": "ListItem", "position": 2, "name": "iB-theme", "item": "https://freew.org/ibtheme/" }
+          ]
         }
       ]
     }
     </script>
-    <link rel="stylesheet" href="/css/site.css">
+    <link rel="stylesheet" href="/css/site.css?v=2026-11-catalog-1">
   </head>
   <body>
     <a class="skip" href="#content">Skip to content</a>
-    <div class="app">
-      <header class="sidebar">
+    <header class="topbar">
+      <div class="topbar-inner">
         <p class="wordmark" itemscope itemtype="https://schema.org/WebSite" itemid="https://freew.org/#website">
           <a itemprop="url" href="https://freew.org/"><span itemprop="name">freew.org</span></a>
           <link itemprop="publisher" href="https://swiphtgroup.com/#organization">
         </p>
-        <nav class="side-nav" aria-label="Site">
-          <a href="/">Home</a>
+        <nav class="site-nav" aria-label="Site">
+          <a href="/" aria-current="true">Catalog</a>
           <a href="/pricing/">Pricing</a>
           <a href="/donate/">Donate</a>
         </nav>
-        <nav class="side-nav" aria-label="Related sites">
-          <a class="external" href="https://swiphtgroup.com/">Swipht Group</a>
-          <a class="external" href="https://clambercloud.com/">Clamber</a>
-        </nav>
-      </header>
-      <div class="sheet">
-        <main id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/ibtheme/#webpage">
-          <meta itemprop="url" content="https://freew.org/ibtheme/">
-          <link itemprop="isPartOf" href="https://freew.org/#website">
-          <link itemprop="relatedLink" href="https://clambercloud.com/">
-          <h1 itemprop="name">iB-theme</h1>
-          <p class="lede" itemprop="description">An IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2.</p>
-          <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/ibtheme/#work">
-            <meta itemprop="name" content="iB-theme">
-            <meta itemprop="description" content="IBM Carbon theme with dark and light variants. Dark foreground #ffffff on #161616. Light foreground #161616 on #ffffff.">
-            <link itemprop="codeRepository" href="https://github.com/JohnThre/iB-theme">
-            <meta itemprop="programmingLanguage" content="JSON">
-            <link itemprop="license" href="https://www.gnu.org/licenses/gpl-3.0.html">
-            <p class="copy">Dark text is #ffffff on #161616. Light text is #161616 on #ffffff. The accent is #0f62fe.</p>
-            <figure class="phosphor ib-dark">
-              <pre class="phosphor-screen"><span class="ib-keyword">keyword</span> <span class="ib-function">function</span> <span class="ib-class">Class</span>
-<span class="ib-string">"string"</span> <span class="ib-number">42</span> <span class="ib-accent">#0f62fe</span></pre>
-              <figcaption>Foreground #ffffff on #161616.</figcaption>
-            </figure>
-            <figure class="phosphor ib-light">
-              <pre class="phosphor-screen"><span class="ib-keyword">keyword</span> <span class="ib-function">function</span> <span class="ib-class">Class</span>
-<span class="ib-string">"string"</span> <span class="ib-number">42</span> <span class="ib-accent">#0f62fe</span></pre>
-              <figcaption>Foreground #161616 on #ffffff.</figcaption>
-            </figure>
-            <h2 class="section-label">Surfaces</h2>
-            <div class="group">
-              <div class="row">
-                <span>
-                  <span class="row-title">Cursor, VS Code, and Open VSX</span>
-                  <span class="row-detail">Extension jpfchang.ib-theme. iB-theme Dark and iB-theme Light.</span>
-                </span>
-              </div>
-              <div class="row">
-                <span>
-                  <span class="row-title">GNU Emacs</span>
-                  <span class="row-detail">Load ib-theme-dark or ib-theme-light.</span>
-                </span>
-              </div>
-              <div class="row">
-                <span>
-                  <span class="row-title">Vim and Neovim</span>
-                  <span class="row-detail">colorscheme ib-theme-dark or ib-theme-light.</span>
-                </span>
-              </div>
-              <div class="row">
-                <span>
-                  <span class="row-title">CotEditor</span>
-                  <span class="row-detail">Import ib-theme-dark.cottheme and ib-theme-light.cottheme.</span>
-                </span>
-              </div>
-              <div class="row">
-                <span>
-                  <span class="row-title">Apple Terminal and iTerm2</span>
-                  <span class="row-detail">Dark and light profiles.</span>
-                </span>
-              </div>
-            </div>
-            <h2 class="section-label">Terms</h2>
-            <div class="group">
-              <div class="row">
-                <span>
-                  <span class="row-title">Free of charge</span>
-                  <span class="row-detail">No payment is required.</span>
-                </span>
-              </div>
-              <div class="row">
-                <span>
-                  <span class="row-title">Free software</span>
-                  <span class="row-detail">GNU General Public License, version 3 or later. Freedom to use, study, share, and change it.</span>
-                </span>
-              </div>
-            </div>
-            <h2 class="section-label">Use</h2>
-            <div class="group">
-              <div class="row">
-                <span>
-                  <span class="row-title">System</span>
-                  <span class="row-detail">Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2.</span>
-                </span>
-              </div>
-              <a class="row external" href="https://github.com/JohnThre/iB-theme">
-                <span>
-                  <span class="row-title">Source</span>
-                  <span class="row-detail">github.com/JohnThre/iB-theme</span>
-                </span>
-                <span class="chevron" aria-hidden="true"></span>
-              </a>
-            </div>
-          </div>
-        </main>
-        <footer class="colophon">
-          <p>
-            <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
-              <span itemprop="name">Pengfan Chang</span>
-              <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
-                (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
-              </span>
-            </span>
-          </p>
-          <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
-          <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
-          <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
-        </footer>
       </div>
-    </div>
+    </header>
+<main class="page" id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/ibtheme/#webpage">
+      <meta itemprop="url" content="https://freew.org/ibtheme/">
+      <link itemprop="isPartOf" href="https://freew.org/#website">
+      <link itemprop="relatedLink" href="https://clambercloud.com/">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Catalog</a></li>
+          <li aria-current="page">iB-theme</li>
+        </ol>
+      </nav>
+      <header class="entry-head">
+        <h1 itemprop="name">iB-theme</h1>
+        <p class="entry-meta"><span>Editor and terminal theme</span> <span class="badge free">Free software · GPL-3.0-or-later</span></p>
+        <p class="lede" itemprop="description">An IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2.</p>
+        <p class="actions">
+          <a class="button primary external" href="https://github.com/JohnThre/iB-theme">Source</a>
+          <a class="button external" href="https://www.gnu.org/licenses/gpl-3.0.html">License</a>
+        </p>
+      </header>
+      <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/ibtheme/#work">
+        <meta itemprop="name" content="iB-theme">
+        <meta itemprop="description" content="IBM Carbon theme with dark and light variants. Dark foreground #ffffff on #161616. Light foreground #161616 on #ffffff.">
+        <link itemprop="codeRepository" href="https://github.com/JohnThre/iB-theme">
+        <meta itemprop="programmingLanguage" content="JSON">
+        <link itemprop="license" href="https://www.gnu.org/licenses/gpl-3.0.html">
+        <p class="copy">Dark text is #ffffff on #161616. Light text is #161616 on #ffffff. The accent is #0f62fe.</p>
+        <figure class="phosphor ib-dark">
+          <pre class="phosphor-screen"><span class="ib-keyword">keyword</span> <span class="ib-function">function</span> <span class="ib-class">Class</span>
+<span class="ib-string">"string"</span> <span class="ib-number">42</span> <span class="swatch"><span class="ib-accent"></span></span>#0f62fe</pre>
+          <figcaption>Foreground #ffffff on #161616.</figcaption>
+        </figure>
+        <figure class="phosphor ib-light">
+          <pre class="phosphor-screen"><span class="ib-keyword">keyword</span> <span class="ib-function">function</span> <span class="ib-class">Class</span>
+<span class="ib-string">"string"</span> <span class="ib-number">42</span> <span class="swatch"><span class="ib-accent"></span></span>#0f62fe</pre>
+          <figcaption>Foreground #161616 on #ffffff.</figcaption>
+        </figure>
+        <div class="facts">
+          <section>
+            <h2>Surfaces</h2>
+            <dl>
+              <div>
+                <dt>Cursor, VS Code, and Open VSX</dt>
+                <dd>Extension jpfchang.ib-theme. iB-theme Dark and iB-theme Light.</dd>
+              </div>
+              <div>
+                <dt>GNU Emacs</dt>
+                <dd>Load ib-theme-dark or ib-theme-light.</dd>
+              </div>
+              <div>
+                <dt>Vim and Neovim</dt>
+                <dd>colorscheme ib-theme-dark or ib-theme-light.</dd>
+              </div>
+              <div>
+                <dt>CotEditor</dt>
+                <dd>Import ib-theme-dark.cottheme and ib-theme-light.cottheme.</dd>
+              </div>
+              <div>
+                <dt>Apple Terminal and iTerm2</dt>
+                <dd>Dark and light profiles.</dd>
+              </div>
+            </dl>
+          </section>
+          <section>
+            <h2>Terms</h2>
+            <dl>
+              <div>
+                <dt>Free of charge</dt>
+                <dd>No payment is required.</dd>
+              </div>
+              <div>
+                <dt><a class="external" href="https://www.gnu.org/licenses/gpl-3.0.html">Free software</a></dt>
+                <dd>GNU General Public License, version 3 or later. Freedom to use, study, share, and change it.</dd>
+              </div>
+            </dl>
+          </section>
+          <section>
+            <h2>Use</h2>
+            <dl>
+              <div>
+                <dt>System</dt>
+                <dd>Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2.</dd>
+              </div>
+              <div>
+                <dt><a class="external" href="https://github.com/JohnThre/iB-theme">Source</a></dt>
+                <dd>github.com/JohnThre/iB-theme</dd>
+              </div>
+            </dl>
+          </section>
+        </div>
+      </div>
+      <p class="back"><a href="/">Back to the catalog</a></p>
+    </main>
+    <footer class="colophon">
+      <div class="page">
+        <p>
+          <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
+            <span itemprop="name">Pengfan Chang</span>
+            <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
+              (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+            </span>
+          </span>
+        </p>
+        <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
+        <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
+        <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
+      </div>
+    </footer>
   </body>
 </html>

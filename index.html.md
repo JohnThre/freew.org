@@ -1,5 +1,5 @@
 <!--
-freew.org presents apps and repositories you can use without paying.
+freew.org lists apps and repositories and states the terms of each.
 Copyright (C) 2026 Pengfan Chang
 Contact: https://swiphtgroup.com/
 
@@ -21,29 +21,29 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 Canonical: https://freew.org/
 
-A presentation of apps and repositories you can use without paying.
+Apps and repositories, with the terms of each.
+
+Some of this work is free software. Free software means freedom to use, study, share, and change the work. A price of zero is not the same thing. The rest is proprietary, and its published licenses grant no permission to use it.
 
 ## Free software
 
-- [Amber Phosphor](https://freew.org/amberphosphor/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/amberphosphor/
-- [CTMU](https://freew.org/ctmu/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/ctmu/
-- [Gas Plasma](https://freew.org/gasplasma/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/gasplasma/
-- [iB-theme](https://freew.org/ibtheme/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/ibtheme/
-- [P1PW](https://freew.org/p1pw/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/p1pw/
-- [WordPerfect Blue](https://freew.org/wordperfectblue/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/wordperfectblue/
+- [Amber Phosphor](https://freew.org/amberphosphor/index.html.md): Terminal theme. A terminal theme for Apple Terminal and iTerm2. Free of charge, and free software (GPL-3.0). Canonical page: https://freew.org/amberphosphor/
+- [CTMU](https://freew.org/ctmu/index.html.md): Command-line tool for macOS. A command-line tool for macOS. Free of charge, and free software (GPL-3.0). Canonical page: https://freew.org/ctmu/
+- [Gas Plasma](https://freew.org/gasplasma/index.html.md): Terminal and editor theme. An orange-dominant dark theme for Apple Terminal, iTerm2, VS Code, and Zed. Free of charge, and free software (GPL-3.0-or-later). Canonical page: https://freew.org/gasplasma/
+- [iB-theme](https://freew.org/ibtheme/index.html.md): Editor and terminal theme. An IBM Carbon theme for Cursor, VS Code, GNU Emacs, Vim, Neovim, CotEditor, Apple Terminal, and iTerm2. Free of charge, and free software (GPL-3.0-or-later). Canonical page: https://freew.org/ibtheme/
+- [P1PW](https://freew.org/p1pw/index.html.md): Terminal theme. A warm, paper-toned light theme for Apple Terminal. Free of charge, and free software (GPL-3.0). Canonical page: https://freew.org/p1pw/
+- [WordPerfect Blue](https://freew.org/wordperfectblue/index.html.md): Terminal theme. A WordPerfect 5.1 white-on-blue theme for Apple Terminal. Free of charge, and free software (GPL-3.0). Canonical page: https://freew.org/wordperfectblue/
 
 ## Not free software
 
-- [Air Traffic Control (ATC)](https://freew.org/atc/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/atc/
-- [COBOL](https://freew.org/cobol/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/cobol/
-- [NovaCEE Offline](https://freew.org/novacee/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/novacee/
-- [Pascal](https://freew.org/pascal/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/pascal/
-- [RockyBack](https://freew.org/rockyback/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/rockyback/
-- [VB.NET](https://freew.org/vbnet/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/vbnet/
+- [Air Traffic Control (ATC)](https://freew.org/atc/index.html.md): Nova extension. Runs and coordinates coding agents from the Nova editor. Proprietary. The published license grants no permission to use it. Not free software. Canonical page: https://freew.org/atc/
+- [COBOL](https://freew.org/cobol/index.html.md): Nova extension. COBOL support for the Nova editor. Proprietary. The published license grants no permission to use it. Not free software. Canonical page: https://freew.org/cobol/
+- [NovaCEE Offline](https://freew.org/novacee/index.html.md): Nova extension. Offline docs and developer tools in the Nova editor, for Macs without a network connection. Proprietary. The published license grants no permission to use it. Not free software. Canonical page: https://freew.org/novacee/
+- [Pascal](https://freew.org/pascal/index.html.md): Nova extension. Pascal and Object Pascal support for the Nova editor. Proprietary. The published license grants no permission to use it. Not free software. Canonical page: https://freew.org/pascal/
+- [RockyBack](https://freew.org/rockyback/index.html.md): Server setup script. Prepares Rocky Linux 9 or AlmaLinux 9 and installs ClambBack. Proprietary. The published license grants no permission to use it. Not free software. Canonical page: https://freew.org/rockyback/
+- [VB.NET](https://freew.org/vbnet/index.html.md): Nova extension. Visual Basic .NET support for the Nova editor. Proprietary. The published license grants no permission to use it. Not free software. Canonical page: https://freew.org/vbnet/
 
-Some of that work is free software. Free software means freedom to use, study, share, and change the work. A price of zero is not the same thing.
-
-[Pricing](https://freew.org/pricing/) lists Air Traffic Control (ATC), Amber Phosphor, COBOL, CTMU, Gas Plasma, iB-theme, NovaCEE Offline, P1PW, Pascal, RockyBack, VB.NET, and WordPerfect Blue. Amber Phosphor, CTMU, Gas Plasma, iB-theme, P1PW, and WordPerfect Blue are free software. RockyBack, Pascal, COBOL, VB.NET, Air Traffic Control (ATC), and NovaCEE Offline are proprietary, and their published licenses grant no permission to use them.
+[Pricing](https://freew.org/pricing/) compares what each work costs and allows.
 
 Author: Pengfan Chang (Swipht Group). https://swiphtgroup.com/
 

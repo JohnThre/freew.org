@@ -1,5 +1,5 @@
 <!--
-freew.org presents apps and repositories you can use without paying.
+freew.org lists apps and repositories and states the terms of each.
 Copyright (C) 2026 Pengfan Chang
 Contact: https://swiphtgroup.com/
 
@@ -21,30 +21,30 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 Canonical: https://freew.org/pricing/
 
-This page presents apps and repositories you can use without paying.
+What each work in the catalog costs and allows.
 
 ## Terms
 
 - Free of charge: No payment is required to use it.
 - Free software: The work respects your freedom to use, study, share, and change it. Free of charge is not the same thing.
+- No public permission: The published license does not allow use, copying, or sharing. Written authorization from the author is required. Such a work is proprietary, and it is not free software.
 
-## Free software
+## The 12 works in the catalog, in alphabetical order
 
-- [Amber Phosphor](https://freew.org/amberphosphor/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/amberphosphor/
-- [CTMU](https://freew.org/ctmu/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/ctmu/
-- [Gas Plasma](https://freew.org/gasplasma/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/gasplasma/
-- [iB-theme](https://freew.org/ibtheme/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/ibtheme/
-- [P1PW](https://freew.org/p1pw/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/p1pw/
-- [WordPerfect Blue](https://freew.org/wordperfectblue/index.html.md): Free of charge, and free software. Canonical page: https://freew.org/wordperfectblue/
-
-## Not free software
-
-- [Air Traffic Control (ATC)](https://freew.org/atc/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/atc/
-- [COBOL](https://freew.org/cobol/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/cobol/
-- [NovaCEE Offline](https://freew.org/novacee/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/novacee/
-- [Pascal](https://freew.org/pascal/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/pascal/
-- [RockyBack](https://freew.org/rockyback/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/rockyback/
-- [VB.NET](https://freew.org/vbnet/index.html.md): No public permission to use it. Not free software. Canonical page: https://freew.org/vbnet/
+| Work | Kind | Charge | License | What the license allows |
+| --- | --- | --- | --- | --- |
+| [Air Traffic Control (ATC)](https://freew.org/atc/) | Nova extension | No public permission to use it | [Proprietary](https://github.com/JohnThre/AirTrafficControl.novaextension/blob/main/LICENSE) | Not free software. Nothing without written authorization from the author. |
+| [Amber Phosphor](https://freew.org/amberphosphor/) | Terminal theme | Free of charge | [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) | Free software. Use, study, share, and change it. |
+| [COBOL](https://freew.org/cobol/) | Nova extension | No public permission to use it | [Proprietary](https://github.com/JohnThre/COBOL.novaextension/blob/main/LICENSE) | Not free software. Nothing without written authorization from the author. |
+| [CTMU](https://freew.org/ctmu/) | Command-line tool for macOS | Free of charge | [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) | Free software. Use, study, share, and change it. |
+| [Gas Plasma](https://freew.org/gasplasma/) | Terminal and editor theme | Free of charge | [GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.html) | Free software. Use, study, share, and change it. |
+| [iB-theme](https://freew.org/ibtheme/) | Editor and terminal theme | Free of charge | [GPL-3.0-or-later](https://www.gnu.org/licenses/gpl-3.0.html) | Free software. Use, study, share, and change it. |
+| [NovaCEE Offline](https://freew.org/novacee/) | Nova extension | No public permission to use it | Proprietary | Not free software. Nothing without written authorization from the author. |
+| [P1PW](https://freew.org/p1pw/) | Terminal theme | Free of charge | [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) | Free software. Use, study, share, and change it. |
+| [Pascal](https://freew.org/pascal/) | Nova extension | No public permission to use it | [Proprietary](https://github.com/JohnThre/Pascal.novaextension/blob/main/LICENSE) | Not free software. Nothing without written authorization from the author. |
+| [RockyBack](https://freew.org/rockyback/) | Server setup script | No public permission to use it | [Proprietary](https://github.com/JohnThre/rockyback/blob/main/LICENSE) | Not free software. Nothing without written authorization from the author. |
+| [VB.NET](https://freew.org/vbnet/) | Nova extension | No public permission to use it | [Proprietary](https://github.com/JohnThre/VB.NET.novaextension/blob/main/LICENSE) | Not free software. Nothing without written authorization from the author. |
+| [WordPerfect Blue](https://freew.org/wordperfectblue/) | Terminal theme | Free of charge | [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) | Free software. Use, study, share, and change it. |
 
 Author: Pengfan Chang (Swipht Group). https://swiphtgroup.com/
 
