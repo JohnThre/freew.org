@@ -25,8 +25,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="description" content="NovaCEE Offline: offline docs and developer tools in the Nova editor. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta name="author" content="Pengfan Chang">
     <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b0d11" media="(prefers-color-scheme: dark)">
     <link rel="canonical" href="https://freew.org/novacee/">
     <link rel="author" href="https://swiphtgroup.com/">
     <link rel="icon" href="/favicon.svg?v=2026-10-open-stroke-1" type="image/svg+xml">
@@ -50,72 +50,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="twitter:description" content="NovaCEE Offline: offline docs and developer tools in the Nova editor. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta name="twitter:image" content="https://freew.org/novacee/demo.jpg">
     <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html" title="License of this page">
-    <link rel="describedby" href="https://freew.org/llms.txt">
-    <link rel="alternate" type="text/markdown" href="https://freew.org/novacee/index.html.md">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebSite",
-          "@id": "https://freew.org/#website",
-          "name": "freew.org",
-          "url": "https://freew.org/",
-          "publisher": { "@id": "https://swiphtgroup.com/#organization" },
-          "license": "https://www.gnu.org/licenses/agpl-3.0.html"
-        },
-        {
-          "@type": "Person",
-          "@id": "https://freew.org/#pengfan-chang",
-          "name": "Pengfan Chang",
-          "affiliation": { "@id": "https://swiphtgroup.com/#organization" }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://swiphtgroup.com/#organization",
-          "name": "Swipht Group",
-          "url": "https://swiphtgroup.com/"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://freew.org/novacee/#webpage",
-          "url": "https://freew.org/novacee/",
-          "name": "NovaCEE Offline",
-          "description": "Offline docs and developer tools in the Nova editor, for Macs without a network connection.",
-          "isPartOf": { "@id": "https://freew.org/#website" },
-          "relatedLink": "https://clambercloud.com/",
-          "mainEntity": { "@id": "https://freew.org/novacee/#work" },
-          "breadcrumb": { "@id": "https://freew.org/novacee/#breadcrumb" }
-        },
-        {
-          "@type": "SoftwareSourceCode",
-          "@id": "https://freew.org/novacee/#work",
-          "name": "NovaCEE Offline",
-          "description": "Searches Dash-format docsets in Nova without a network connection, installs docsets, a search index, and toolchains only after their SHA-256 hashes match a manifest, and runs those toolchains, with Library Health and Disk Usage.",
-          "programmingLanguage": "JavaScript",
-          "author": { "@id": "https://freew.org/#pengfan-chang" },
-          "isAccessibleForFree": false,
-          "isPartOf": { "@id": "https://freew.org/#website" }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://freew.org/novacee/#breadcrumb",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Catalog", "item": "https://freew.org/" },
-            { "@type": "ListItem", "position": 2, "name": "NovaCEE Offline", "item": "https://freew.org/novacee/" }
-          ]
-        }
-      ]
-    }
-    </script>
-    <link rel="stylesheet" href="/css/site.css?v=2026-11-catalog-1">
+    <link rel="stylesheet" href="/css/site.css?v=2026-11-native-1">
   </head>
   <body>
     <a class="skip" href="#content">Skip to content</a>
-    <header class="topbar">
-      <div class="topbar-inner">
+    <div class="topbar-wrap">
+      <header class="topbar">
         <p class="wordmark" itemscope itemtype="https://schema.org/WebSite" itemid="https://freew.org/#website">
-          <a itemprop="url" href="https://freew.org/"><span itemprop="name">freew.org</span></a>
+          <a itemprop="url" href="https://freew.org/">
+            <img class="brand-mark" src="/favicon.svg?v=2026-10-open-stroke-1" width="28" height="28" alt="">
+            <span itemprop="name">freew.org</span>
+          </a>
           <link itemprop="publisher" href="https://swiphtgroup.com/#organization">
         </p>
         <nav class="site-nav" aria-label="Site">
@@ -123,9 +68,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           <a href="/pricing/">Pricing</a>
           <a href="/donate/">Donate</a>
         </nav>
-      </div>
-    </header>
-<main class="page" id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/novacee/#webpage">
+        <div class="theme-switch" role="radiogroup" aria-label="Color appearance">
+          <input class="sr-only" type="radio" name="theme" id="theme-auto" checked>
+          <label for="theme-auto">Auto</label>
+          <input class="sr-only" type="radio" name="theme" id="theme-light">
+          <label for="theme-light">Light</label>
+          <input class="sr-only" type="radio" name="theme" id="theme-dark">
+          <label for="theme-dark">Dark</label>
+        </div>
+      </header>
+    </div>
+    <main class="page" id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/novacee/#webpage">
       <meta itemprop="url" content="https://freew.org/novacee/">
       <link itemprop="isPartOf" href="https://freew.org/#website">
       <link itemprop="relatedLink" href="https://clambercloud.com/">
@@ -140,10 +93,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <p class="entry-meta"><span>Nova extension</span> <span class="badge restricted">Proprietary · no permission to use</span></p>
         <p class="lede" itemprop="description">Offline docs and developer tools in the Nova editor, for Macs without a network connection.</p>
       </header>
+      <aside class="callout" aria-label="License boundary">
+        <strong>Not free software.</strong> The published license grants no permission to use, copy, or share NovaCEE Offline. Written authorization from the author is required.
+      </aside>
       <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/novacee/#work">
         <meta itemprop="name" content="NovaCEE Offline">
         <meta itemprop="description" content="Searches Dash-format docsets in Nova without a network connection, installs docsets, a search index, and toolchains only after their SHA-256 hashes match a manifest, and runs those toolchains, with Library Health and Disk Usage.">
         <meta itemprop="programmingLanguage" content="JavaScript">
+        <meta itemprop="isAccessibleForFree" content="false">
         <p class="copy">It is built for Macs that never reach the internet. You copy payloads onto the machine ahead of time: docsets, a full-text search index, and toolchains. Each payload is checked against its SHA-256 hash in a manifest before it installs, and every path in an archive is checked before it unpacks. One search, ⌘⇧D, covers every installed docset. It uses the search index when it is installed and scans each docset otherwise. Results are ranked, a type: filter keeps one kind of entry, and Look Up Symbol searches for the word under the cursor in the docsets for the document's language. You can search one docset, reinstall, update, or uninstall a payload, see how much disk each docset uses, and check the library's health: the manifest, every hash, what is not installed yet, and free space. Run Tool runs an installed toolchain with new arguments, the last arguments, or a saved preset, and checks the tool's hash before every run. The extension makes no network requests.</p>
         <div class="gallery">
           <figure class="shot">
@@ -240,18 +197,22 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <p class="back"><a href="/">Back to the catalog</a></p>
     </main>
     <footer class="colophon">
-      <div class="page">
-        <p>
-          <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
-            <span itemprop="name">Pengfan Chang</span>
-            <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
-              (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+      <div class="colophon-inner">
+        <div>
+          <p>
+            <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
+              <span itemprop="name">Pengfan Chang</span>
+              <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
+                (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+              </span>
             </span>
-          </span>
-        </p>
-        <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
-        <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
-        <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
+          </p>
+          <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
+        </div>
+        <div>
+          <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
+          <p>Pure HTML &amp; CSS, zero JavaScript. The <a href="https://github.com/JohnThre/freew.org">source</a> is under GNU AGPL-3.0-or-later.</p>
+        </div>
       </div>
     </footer>
   </body>

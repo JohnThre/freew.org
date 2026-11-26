@@ -25,8 +25,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="description" content="Donations support the work listed on freew.org. They are optional. They grant no license and no permission to use the proprietary works.">
     <meta name="author" content="Pengfan Chang">
     <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b0d11" media="(prefers-color-scheme: dark)">
     <link rel="canonical" href="https://freew.org/donate/">
     <link rel="author" href="https://swiphtgroup.com/">
     <link rel="icon" href="/favicon.svg?v=2026-10-open-stroke-1" type="image/svg+xml">
@@ -50,62 +50,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="twitter:description" content="Donations support the work listed on freew.org. They are optional. They grant no license and no permission to use the proprietary works.">
     <meta name="twitter:image" content="https://freew.org/icons/freew/icon-512.png">
     <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html" title="License of this page">
-    <link rel="describedby" href="https://freew.org/llms.txt">
-    <link rel="alternate" type="text/markdown" href="https://freew.org/donate/index.html.md">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebSite",
-          "@id": "https://freew.org/#website",
-          "name": "freew.org",
-          "url": "https://freew.org/",
-          "publisher": { "@id": "https://swiphtgroup.com/#organization" },
-          "license": "https://www.gnu.org/licenses/agpl-3.0.html"
-        },
-        {
-          "@type": "Person",
-          "@id": "https://freew.org/#pengfan-chang",
-          "name": "Pengfan Chang",
-          "affiliation": { "@id": "https://swiphtgroup.com/#organization" },
-          "sameAs": [
-            "https://en.liberapay.com/jpfchang/",
-            "https://ko-fi.com/jpfchang",
-            "https://oss.issuehunt.io/u/johnthre"
-          ]
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://swiphtgroup.com/#organization",
-          "name": "Swipht Group",
-          "url": "https://swiphtgroup.com/"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://freew.org/donate/#webpage",
-          "url": "https://freew.org/donate/",
-          "name": "Donate",
-          "description": "Donations support the work listed on freew.org. They are optional.",
-          "isPartOf": { "@id": "https://freew.org/#website" },
-          "relatedLink": [
-            "https://en.liberapay.com/jpfchang/",
-            "https://ko-fi.com/jpfchang",
-            "https://oss.issuehunt.io/u/johnthre"
-          ],
-          "about": { "@id": "https://freew.org/#pengfan-chang" }
-        }
-      ]
-    }
-    </script>
-    <link rel="stylesheet" href="/css/site.css?v=2026-11-catalog-1">
+    <link rel="stylesheet" href="/css/site.css?v=2026-11-native-1">
   </head>
   <body>
     <a class="skip" href="#content">Skip to content</a>
-    <header class="topbar">
-      <div class="topbar-inner">
+    <div class="topbar-wrap">
+      <header class="topbar">
         <p class="wordmark" itemscope itemtype="https://schema.org/WebSite" itemid="https://freew.org/#website">
-          <a itemprop="url" href="https://freew.org/"><span itemprop="name">freew.org</span></a>
+          <a itemprop="url" href="https://freew.org/">
+            <img class="brand-mark" src="/favicon.svg?v=2026-10-open-stroke-1" width="28" height="28" alt="">
+            <span itemprop="name">freew.org</span>
+          </a>
           <link itemprop="publisher" href="https://swiphtgroup.com/#organization">
         </p>
         <nav class="site-nav" aria-label="Site">
@@ -113,67 +68,87 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           <a href="/pricing/">Pricing</a>
           <a href="/donate/" aria-current="page">Donate</a>
         </nav>
-      </div>
-    </header>
+        <div class="theme-switch" role="radiogroup" aria-label="Color appearance">
+          <input class="sr-only" type="radio" name="theme" id="theme-auto" checked>
+          <label for="theme-auto">Auto</label>
+          <input class="sr-only" type="radio" name="theme" id="theme-light">
+          <label for="theme-light">Light</label>
+          <input class="sr-only" type="radio" name="theme" id="theme-dark">
+          <label for="theme-dark">Dark</label>
+        </div>
+      </header>
+    </div>
     <main class="page" id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/donate/#webpage">
       <meta itemprop="url" content="https://freew.org/donate/">
       <link itemprop="isPartOf" href="https://freew.org/#website">
-      <h1 itemprop="name">Donate</h1>
-      <p class="lede" itemprop="description">Donations support the work listed on freew.org. They are optional.</p>
-      <h2 class="section-label" id="ways">Ways to donate</h2>
-      <ul class="grid" aria-labelledby="ways">
-        <li>
-          <article class="card" data-entry="liberapay">
-            <div class="card-preview" aria-hidden="true"></div>
-            <div class="card-body">
-              <h3 class="card-title"><a class="external" href="https://en.liberapay.com/jpfchang/" itemprop="relatedLink">Liberapay</a></h3>
-              <p class="card-summary">Recurring donations. en.liberapay.com/jpfchang</p>
-            </div>
-          </article>
-        </li>
-        <li>
-          <article class="card" data-entry="kofi">
-            <div class="card-preview" aria-hidden="true"></div>
-            <div class="card-body">
-              <h3 class="card-title"><a class="external" href="https://ko-fi.com/jpfchang" itemprop="relatedLink">Ko-fi</a></h3>
-              <p class="card-summary">One-time or monthly. ko-fi.com/jpfchang</p>
-            </div>
-          </article>
-        </li>
-        <li>
-          <article class="card" data-entry="issuehunt">
-            <div class="card-preview" aria-hidden="true"></div>
-            <div class="card-body">
-              <h3 class="card-title"><a class="external" href="https://oss.issuehunt.io/u/johnthre" itemprop="relatedLink">IssueHunt</a></h3>
-              <p class="card-summary">Fund issues in the repositories. oss.issuehunt.io/u/johnthre</p>
-            </div>
-          </article>
-        </li>
-      </ul>
-      <section class="terms">
-        <h2>Terms</h2>
-        <dl>
-          <div>
-            <dt>Donations buy nothing</dt>
-            <dd>They do not grant a license, and they do not grant permission to use Air Traffic Control (ATC), COBOL, NovaCEE Offline, Pascal, RockyBack, or VB.NET.</dd>
-          </div>
-        </dl>
+      <header class="entry-head">
+        <p class="hero-chip">Optional support</p>
+        <h1 itemprop="name">Donate</h1>
+        <p class="lede" itemprop="description">Donations support the work listed on freew.org. They are optional.</p>
+      </header>
+
+      <section class="catalog-section" aria-labelledby="ways">
+        <div class="section-head">
+          <h2 class="section-label" id="ways">Ways to donate</h2>
+          <p class="section-note">Voluntary contributions via Liberapay, Ko-fi, or IssueHunt.</p>
+        </div>
+        <ul class="grid" aria-labelledby="ways">
+          <li>
+            <article class="card" data-entry="liberapay">
+              <div class="donate-preview" aria-hidden="true"></div>
+              <div class="card-body">
+                <p class="card-kind">Recurring</p>
+                <h3 class="card-title"><a class="external" href="https://en.liberapay.com/jpfchang/" itemprop="relatedLink">Liberapay</a></h3>
+                <p class="card-summary">Recurring donations. en.liberapay.com/jpfchang</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="card" data-entry="kofi">
+              <div class="donate-preview" aria-hidden="true"></div>
+              <div class="card-body">
+                <p class="card-kind">One-time or monthly</p>
+                <h3 class="card-title"><a class="external" href="https://ko-fi.com/jpfchang" itemprop="relatedLink">Ko-fi</a></h3>
+                <p class="card-summary">One-time or monthly. ko-fi.com/jpfchang</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="card" data-entry="issuehunt">
+              <div class="donate-preview" aria-hidden="true"></div>
+              <div class="card-body">
+                <p class="card-kind">Repository issues</p>
+                <h3 class="card-title"><a class="external" href="https://oss.issuehunt.io/u/johnthre" itemprop="relatedLink">IssueHunt</a></h3>
+                <p class="card-summary">Fund issues in the repositories. oss.issuehunt.io/u/johnthre</p>
+              </div>
+            </article>
+          </li>
+        </ul>
       </section>
+
+      <aside class="callout" aria-label="Donation terms">
+        <strong>Donations buy nothing.</strong> They do not grant a license, and they do not grant permission to use Air Traffic Control (ATC), COBOL, NovaCEE Offline, Pascal, RockyBack, or VB.NET.
+      </aside>
+
       <p class="copy back"><a href="/pricing/">Pricing</a> lists what each work in the catalog allows.</p>
     </main>
     <footer class="colophon">
-      <div class="page">
-        <p>
-          <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
-            <span itemprop="name">Pengfan Chang</span>
-            <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
-              (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+      <div class="colophon-inner">
+        <div>
+          <p>
+            <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
+              <span itemprop="name">Pengfan Chang</span>
+              <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
+                (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+              </span>
             </span>
-          </span>
-        </p>
-        <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
-        <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
-        <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
+          </p>
+          <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
+        </div>
+        <div>
+          <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
+          <p>Pure HTML &amp; CSS, zero JavaScript. The <a href="https://github.com/JohnThre/freew.org">source</a> is under GNU AGPL-3.0-or-later.</p>
+        </div>
       </div>
     </footer>
   </body>

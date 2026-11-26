@@ -25,8 +25,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="description" content="Air Traffic Control (ATC) runs coding agents from the Nova editor. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta name="author" content="Pengfan Chang">
     <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b0d11" media="(prefers-color-scheme: dark)">
     <link rel="canonical" href="https://freew.org/atc/">
     <link rel="author" href="https://swiphtgroup.com/">
     <link rel="icon" href="/favicon.svg?v=2026-10-open-stroke-1" type="image/svg+xml">
@@ -50,74 +50,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="twitter:description" content="Air Traffic Control (ATC) runs coding agents from the Nova editor. Proprietary. The published license grants no permission to use it. Not free software.">
     <meta name="twitter:image" content="https://freew.org/atc/demo.jpg">
     <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html" title="License of this page">
-    <link rel="describedby" href="https://freew.org/llms.txt">
-    <link rel="alternate" type="text/markdown" href="https://freew.org/atc/index.html.md">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebSite",
-          "@id": "https://freew.org/#website",
-          "name": "freew.org",
-          "url": "https://freew.org/",
-          "publisher": { "@id": "https://swiphtgroup.com/#organization" },
-          "license": "https://www.gnu.org/licenses/agpl-3.0.html"
-        },
-        {
-          "@type": "Person",
-          "@id": "https://freew.org/#pengfan-chang",
-          "name": "Pengfan Chang",
-          "affiliation": { "@id": "https://swiphtgroup.com/#organization" }
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://swiphtgroup.com/#organization",
-          "name": "Swipht Group",
-          "url": "https://swiphtgroup.com/"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://freew.org/atc/#webpage",
-          "url": "https://freew.org/atc/",
-          "name": "Air Traffic Control (ATC)",
-          "description": "Runs and coordinates coding agents from the Nova editor.",
-          "isPartOf": { "@id": "https://freew.org/#website" },
-          "relatedLink": "https://clambercloud.com/",
-          "mainEntity": { "@id": "https://freew.org/atc/#work" },
-          "breadcrumb": { "@id": "https://freew.org/atc/#breadcrumb" }
-        },
-        {
-          "@type": "SoftwareSourceCode",
-          "@id": "https://freew.org/atc/#work",
-          "name": "Air Traffic Control (ATC)",
-          "description": "Runs Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, and Grok from Nova, each flight in its own Git worktree, with diff review, races, hand-offs, and merge or pull request.",
-          "codeRepository": "https://github.com/JohnThre/AirTrafficControl.novaextension",
-          "programmingLanguage": "JavaScript",
-          "license": "https://github.com/JohnThre/AirTrafficControl.novaextension/blob/main/LICENSE",
-          "author": { "@id": "https://freew.org/#pengfan-chang" },
-          "isAccessibleForFree": false,
-          "isPartOf": { "@id": "https://freew.org/#website" }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://freew.org/atc/#breadcrumb",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Catalog", "item": "https://freew.org/" },
-            { "@type": "ListItem", "position": 2, "name": "Air Traffic Control (ATC)", "item": "https://freew.org/atc/" }
-          ]
-        }
-      ]
-    }
-    </script>
-    <link rel="stylesheet" href="/css/site.css?v=2026-11-catalog-1">
+    <link rel="stylesheet" href="/css/site.css?v=2026-11-native-1">
   </head>
   <body>
     <a class="skip" href="#content">Skip to content</a>
-    <header class="topbar">
-      <div class="topbar-inner">
+    <div class="topbar-wrap">
+      <header class="topbar">
         <p class="wordmark" itemscope itemtype="https://schema.org/WebSite" itemid="https://freew.org/#website">
-          <a itemprop="url" href="https://freew.org/"><span itemprop="name">freew.org</span></a>
+          <a itemprop="url" href="https://freew.org/">
+            <img class="brand-mark" src="/favicon.svg?v=2026-10-open-stroke-1" width="28" height="28" alt="">
+            <span itemprop="name">freew.org</span>
+          </a>
           <link itemprop="publisher" href="https://swiphtgroup.com/#organization">
         </p>
         <nav class="site-nav" aria-label="Site">
@@ -125,9 +68,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           <a href="/pricing/">Pricing</a>
           <a href="/donate/">Donate</a>
         </nav>
-      </div>
-    </header>
-<main class="page" id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/atc/#webpage">
+        <div class="theme-switch" role="radiogroup" aria-label="Color appearance">
+          <input class="sr-only" type="radio" name="theme" id="theme-auto" checked>
+          <label for="theme-auto">Auto</label>
+          <input class="sr-only" type="radio" name="theme" id="theme-light">
+          <label for="theme-light">Light</label>
+          <input class="sr-only" type="radio" name="theme" id="theme-dark">
+          <label for="theme-dark">Dark</label>
+        </div>
+      </header>
+    </div>
+    <main class="page" id="content" itemscope itemtype="https://schema.org/WebPage" itemid="https://freew.org/atc/#webpage">
       <meta itemprop="url" content="https://freew.org/atc/">
       <link itemprop="isPartOf" href="https://freew.org/#website">
       <link itemprop="relatedLink" href="https://clambercloud.com/">
@@ -146,11 +97,15 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           <a class="button external" href="https://github.com/JohnThre/AirTrafficControl.novaextension/blob/main/LICENSE">License</a>
         </p>
       </header>
+      <aside class="callout" aria-label="License boundary">
+        <strong>Not free software.</strong> The published license grants no permission to use, copy, or share Air Traffic Control (ATC). Written authorization from the author is required.
+      </aside>
       <div itemprop="mainEntity" itemscope itemtype="https://schema.org/SoftwareSourceCode" itemid="https://freew.org/atc/#work">
         <meta itemprop="name" content="Air Traffic Control (ATC)">
         <meta itemprop="description" content="Runs Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, and Grok from Nova, each flight in its own Git worktree, with diff review, races, hand-offs, and merge or pull request.">
         <link itemprop="codeRepository" href="https://github.com/JohnThre/AirTrafficControl.novaextension">
         <meta itemprop="programmingLanguage" content="JavaScript">
+        <meta itemprop="isAccessibleForFree" content="false">
         <link itemprop="license" href="https://github.com/JohnThre/AirTrafficControl.novaextension/blob/main/LICENSE">
         <p class="copy">It gives a task to Claude Code, Codex, Cursor, Antigravity, OpenCode, Pi, JetBrains Junie, or Grok. Each task is a flight: one agent session, by default in its own Git worktree on an atc/ branch, so several agents can work at the same time without touching your checkout. A live Markdown transcript shows each turn with its tokens and cost. When a flight lands, you review its diff, write comments on lines starting with &gt;&gt; in the diff, and send them back to the same agent session. Editing turns in a worktree get checkpoints, so you can undo the last turn. A race sends one prompt to several agents, or to several sessions of one agent, and another agent can judge the results. You can hand a flight off to a different agent, run your test command and send failures back, fan one prompt out over files or TODO comments, and merge a flight as one commit, as one commit per turn, or as a pull request.</p>
         <div class="gallery">
@@ -237,18 +192,22 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       <p class="back"><a href="/">Back to the catalog</a></p>
     </main>
     <footer class="colophon">
-      <div class="page">
-        <p>
-          <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
-            <span itemprop="name">Pengfan Chang</span>
-            <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
-              (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+      <div class="colophon-inner">
+        <div>
+          <p>
+            <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
+              <span itemprop="name">Pengfan Chang</span>
+              <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
+                (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+              </span>
             </span>
-          </span>
-        </p>
-        <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
-        <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
-        <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
+          </p>
+          <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
+        </div>
+        <div>
+          <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
+          <p>Pure HTML &amp; CSS, zero JavaScript. The <a href="https://github.com/JohnThre/freew.org">source</a> is under GNU AGPL-3.0-or-later.</p>
+        </div>
       </div>
     </footer>
   </body>

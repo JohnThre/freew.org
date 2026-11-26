@@ -26,8 +26,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <meta name="robots" content="noindex">
     <meta name="author" content="Pengfan Chang">
     <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f6f9" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0b0d11" media="(prefers-color-scheme: dark)">
     <link rel="author" href="https://swiphtgroup.com/">
     <link rel="icon" href="/favicon.svg?v=2026-10-open-stroke-1" type="image/svg+xml">
     <link rel="icon" href="/favicon-32x32.png?v=2026-10-open-stroke-1" type="image/png" sizes="32x32">
@@ -36,14 +36,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <link rel="manifest" href="/site.webmanifest?v=2026-10-open-stroke-1">
     <meta name="apple-mobile-web-app-title" content="freew.org">
     <link rel="license" href="https://www.gnu.org/licenses/agpl-3.0.html" title="License of this page">
-    <link rel="stylesheet" href="/css/site.css?v=2026-11-catalog-1">
+    <link rel="stylesheet" href="/css/site.css?v=2026-11-native-1">
   </head>
   <body>
     <a class="skip" href="#content">Skip to content</a>
-    <header class="topbar">
-      <div class="topbar-inner">
+    <div class="topbar-wrap">
+      <header class="topbar">
         <p class="wordmark" itemscope itemtype="https://schema.org/WebSite" itemid="https://freew.org/#website">
-          <a itemprop="url" href="https://freew.org/"><span itemprop="name">freew.org</span></a>
+          <a itemprop="url" href="https://freew.org/">
+            <img class="brand-mark" src="/favicon.svg?v=2026-10-open-stroke-1" width="28" height="28" alt="">
+            <span itemprop="name">freew.org</span>
+          </a>
           <link itemprop="publisher" href="https://swiphtgroup.com/#organization">
         </p>
         <nav class="site-nav" aria-label="Site">
@@ -51,15 +54,26 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
           <a href="/pricing/">Pricing</a>
           <a href="/donate/">Donate</a>
         </nav>
-      </div>
-    </header>
+        <div class="theme-switch" role="radiogroup" aria-label="Color appearance">
+          <input class="sr-only" type="radio" name="theme" id="theme-auto" checked>
+          <label for="theme-auto">Auto</label>
+          <input class="sr-only" type="radio" name="theme" id="theme-light">
+          <label for="theme-light">Light</label>
+          <input class="sr-only" type="radio" name="theme" id="theme-dark">
+          <label for="theme-dark">Dark</label>
+        </div>
+      </header>
+    </div>
     <main class="page" id="content">
-      <h1>Page not found</h1>
-      <p class="lede">This address is not on freew.org.</p>
-      <p class="actions">
-        <a class="button primary" href="/">Go to the catalog</a>
-        <a class="button" href="/pricing/">Pricing</a>
-      </p>
+      <header class="entry-head">
+        <p class="hero-chip">404 · Not found</p>
+        <h1>Page not found</h1>
+        <p class="lede">This address is not on freew.org.</p>
+        <p class="actions">
+          <a class="button primary" href="/">Go to the catalog</a>
+          <a class="button" href="/pricing/">Pricing</a>
+        </p>
+      </header>
       <div class="facts">
         <section>
           <h2>Free software</h2>
@@ -122,18 +136,22 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       </div>
     </main>
     <footer class="colophon">
-      <div class="page">
-        <p>
-          <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
-            <span itemprop="name">Pengfan Chang</span>
-            <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
-              (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+      <div class="colophon-inner">
+        <div>
+          <p>
+            <span itemscope itemtype="https://schema.org/Person" itemid="https://freew.org/#pengfan-chang">
+              <span itemprop="name">Pengfan Chang</span>
+              <span itemprop="affiliation" itemscope itemtype="https://schema.org/Organization" itemid="https://swiphtgroup.com/#organization">
+                (<a itemprop="url" href="https://swiphtgroup.com/"><span itemprop="name">Swipht Group</span></a>)
+              </span>
             </span>
-          </span>
-        </p>
-        <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
-        <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
-        <p>The <a href="https://github.com/JohnThre/freew.org">source</a> is available under the GNU Affero General Public License, version 3 or later.</p>
+          </p>
+          <p><a href="https://swiphtgroup.com/">swiphtgroup.com</a> is the main Swipht Group site. <a href="https://clambercloud.com/">clambercloud.com</a> is the related Clamber site.</p>
+        </div>
+        <div>
+          <p>You can <a href="/donate/">donate</a> through Liberapay, Ko-fi, or IssueHunt.</p>
+          <p>Pure HTML &amp; CSS, zero JavaScript. The <a href="https://github.com/JohnThre/freew.org">source</a> is under GNU AGPL-3.0-or-later.</p>
+        </div>
       </div>
     </footer>
   </body>

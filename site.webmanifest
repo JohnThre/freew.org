@@ -1,12 +1,12 @@
 {
   "name": "freew.org",
   "short_name": "freew.org",
-  "description": "Apps and repositories, with the terms of each.",
+  "description": "Know what is free. Know what is not. Apps and repositories, with the terms of each.",
   "id": "/",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f5f5f7",
-  "theme_color": "#f5f5f7",
+  "background_color": "#f4f6f9",
+  "theme_color": "#f4f6f9",
   "icons": [
     {
       "src": "/favicon.svg?v=2026-10-open-stroke-1",

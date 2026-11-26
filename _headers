@@ -15,8 +15,8 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-# The site has no executable script. JSON-LD blocks are data, so the
-# policy needs no script-src. Icons in the stylesheet are data: URIs.
+# The site is strictly HTML and CSS with zero <script> tags and no inline styles.
+# Icons in the stylesheet are data: URIs.
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
@@ -40,9 +40,3 @@
 
 /*.mp4
   Cache-Control: public, max-age=2592000
-
-/*.md
-  Content-Type: text/markdown; charset=utf-8
-
-/llms.txt
-  Content-Type: text/plain; charset=utf-8
